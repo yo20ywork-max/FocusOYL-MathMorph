@@ -1,4 +1,4 @@
-"""Guard current documentation against a macro rejected by GitHub's renderer.
+"""Guard current documentation against macros rejected by GitHub's renderer.
 
 This static regression check does not replace live browser rendering tests.
 Historical source and experimental evidence are intentionally excluded.
@@ -17,7 +17,7 @@ class MathMarkupTests(unittest.TestCase):
         for path in paths:
             with self.subTest(path=path.relative_to(ROOT).as_posix()):
                 text = path.read_text(encoding="utf-8")
-                self.assertIsNone(re.search(r"\\operatorname\b", text))
+                self.assertIsNone(re.search(r"\\(?:operatorname|thickspace)\b", text))
 
     def test_current_docs_avoid_markdown_escaped_math_punctuation(self):
         paths = [ROOT / "README.md", *sorted((ROOT / "docs").glob("*.md"))]
