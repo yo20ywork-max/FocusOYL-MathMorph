@@ -2,7 +2,7 @@
 
 ### Training-free GGUF weight editing, from spectral geometry to reproducible experiments
 
-[Model weights](https://huggingface.co/yoxia/FocusOYL-Prism-1B) · [Mathematics](docs/MATHEMATICS.md) · [Experiment history](docs/EXPERIMENT_LOG.md) · [Evaluation protocol](docs/EVALUATION.md) · [Reproduction](docs/REPRODUCIBILITY.md)
+[Model weights](https://huggingface.co/yoxia/FocusOYL-Prism-1B) · [Mathematics](docs/MATHEMATICS.md) · [Experiment history](docs/EXPERIMENT_LOG.md) · [Evaluation protocol](docs/EVALUATION.md) · [Reproduction](docs/REPRODUCIBILITY.md) ? [Euclidean converter](docs/EUCLIDEAN_CONVERTER.md)
 
 **MathMorph is the research framework. FocusOYL Prism-1B is one specific experimental checkpoint.** This repository documents the hypotheses, implementations, controls, negative results, and publication lineage behind that checkpoint. It does not claim a universal GGUF upgrade, a newly pretrained foundation model, or a proven breakthrough beyond an architecture's capability ceiling.
 
@@ -12,6 +12,7 @@
 
 | Field | Released Prism checkpoint |
 |---|---|
+| Hugging Face publisher | [yoxia](https://huggingface.co/yoxia) |
 | Base model | [OpenBMB / MiniCPM5-1B](https://huggingface.co/openbmb/MiniCPM5-1B) |
 | Artifact | `FocusOYL-Prism-1B-F16-Experimental-01.gguf` |
 | Recipe | MathMorph v0.4 `euclid_control` |
@@ -141,7 +142,9 @@ Read [EXPERIMENT_LOG.md](docs/EXPERIMENT_LOG.md) for the complete documented seq
 
 ## 6. Use and reproduce
 
-Python 3.12 is the original Windows environment. The root converter is an explicit-path entry point for the **known Prism baseline**, not a promise to optimize arbitrary GGUF files:
+### A. Reproduce the published Prism
+
+Python 3.12 is the original Windows environment. `convert_prism.py` is the fixed entry point for the **known Prism baseline**, not a promise to optimize arbitrary GGUF files:
 
 ```bash
 python -m venv .venv
@@ -152,6 +155,24 @@ python -m venv .venv
 
 It writes to a new directory, verifies source identity, and does not publish, replace a production model, or start a paid cloud job. Exact output hashes can depend on the numerical library and floating-point implementation; compare the recorded recipe and audited changes as well as the input identity.
 
+### B. Run an explicit Euclidean experiment
+
+`convert_euclidean.py` shares the unchanged v0.4 core but exposes layer selection, rank, and the per-tensor update budget. It always disables high-dimensional geometry and readout protection. Start with a metadata-only preflight:
+
+```powershell
+.\.venv\Scripts\python.exe convert_euclidean.py --source "C:\models\MiniCPM5-1B-F16.gguf" --layers 23 --rank 512 --budget 0.12 --dry-run
+```
+
+Then create a separate candidate in a new directory:
+
+```powershell
+.\.venv\Scripts\python.exe convert_euclidean.py --source "C:\models\MiniCPM5-1B-F16.gguf" --out "C:\models\euclidean-experiment-01" --layers 23 --rank 512 --budget 0.12
+```
+
+Use `--layers last` or an explicit list such as `--layers "21,23"`. `--expected-sha256` optionally pins the source. Only supported dense GGUF layouts and native floating-point target tensors are accepted; **this is not an arbitrary-GGUF or guaranteed-improvement converter**. Read the [usage guide and rejection rules](docs/EUCLIDEAN_CONVERTER.md).
+
+### C. Run synthetic checks
+
 ```bash
 python -m unittest discover -s tests -v
 ```
@@ -161,7 +182,8 @@ These are synthetic mathematical and release-contract checks, **not fresh langua
 ## 7. Repository map
 
 ```text
-convert_prism.py          explicit-path entry point for the released recipe
+convert_prism.py          fixed, source-pinned entry for the released recipe
+convert_euclidean.py      configurable Euclidean experiments with a dry-run preflight
 archive/v0.1/            GPEP and GGUF read/write machinery
 archive/v0.2/            NPSR and arithmetic confirmation experiments
 archive/v0.3/            bounded row-tangent edits and stability screens

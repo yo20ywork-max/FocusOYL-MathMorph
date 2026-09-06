@@ -8,6 +8,6 @@ This archive uses or depends on established mathematical methods and external so
 
 ARC is attributed to AllenAI; GSM8K and IFEval to their respective upstream maintainers. No full third-party question corpus or raw generated evaluation trace is redistributed here. Reproduction scripts fetch data from the original providers, subject to those providers' terms. Dataset rights are not replaced by this repository's Apache-2.0 license.
 
-The model artifacts are hosted at https://huggingface.co/yoxia/FocusOYL-Prism-1B. Historical records can refer to the former account identifier `yooo19y`. The source identity is determined by file hashes, not by the account spelling or filename alone.
+The model artifacts are hosted at https://huggingface.co/yoxia/FocusOYL-Prism-1B. Historical records can refer to former account identifiers. The source identity is determined by file hashes, not by the account spelling or filename alone.
 
 Public structured evidence may differ byte-for-byte from its local source because private paths and free-text traces were removed. Original and published digests are recorded where available. Retrospective documentation does not imply that a historical test was rerun during publication.

@@ -1,0 +1,14 @@
+{
+  "verified_utc": "2026-09-06T18:54:53.639353+00:00",
+  "tests_passed": 25,
+  "new_cli_tests": 16,
+  "existing_tests": 9,
+  "test_scope": "Synthetic GGUF integration and publication checks; not model-capability benchmarks",
+  "real_f16_metadata_preflight_passed": true,
+  "real_model_conversion_executed": false,
+  "new_model_inference": false,
+  "frozen_source_and_evidence_changed": false,
+  "entrypoint_sha256": "fd769a5a54ea8d38e6e364063bfcc93ebf8fbe8fdd001c1f5bf6a7499059eaa5",
+  "publisher": "yoxia",
+  "github_owner": "yo20ywork-max"
+}

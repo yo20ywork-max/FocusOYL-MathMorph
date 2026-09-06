@@ -1,5 +1,7 @@
 # Reproducibility and safe operation
 
+For configurable ordinary projection experiments, see [EUCLIDEAN_CONVERTER.md](EUCLIDEAN_CONVERTER.md). The fixed `convert_prism.py` entry and historical recipes below remain unchanged.
+
 ## Supported entry point
 
 The root `convert_prism.py` reproduces the declared **Euclidean control recipe**, starting from the known original F16 GGUF. It does not auto-detect a best candidate, train, download weights, start a server, or upload results. Supply explicit local source and a new output directory.

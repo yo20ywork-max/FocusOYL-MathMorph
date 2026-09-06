@@ -68,7 +68,7 @@ An initial tokenizer-array read failed before model scoring; the reader fallback
 
 ## Publication: FocusOYL Prism-1B
 
-The Euclidean control was named FocusOYL Prism-1B F16 Experimental-01. It was not relabeled as NPSR sharpen or as the full high-dimensional operator. Weights were hosted on Hugging Face; documentation was subsequently translated into English. Gating and model-card language are hosting settings, not evidence about model intelligence. The current canonical account is `yoxia`; older records retain the historical `yooo19y` identifier.
+The Euclidean control was named FocusOYL Prism-1B F16 Experimental-01. It was not relabeled as NPSR sharpen or as the full high-dimensional operator. Weights were hosted on Hugging Face; documentation was subsequently translated into English. Gating and model-card language are hosting settings, not evidence about model intelligence. The current canonical account is `yoxia`; historical evidence retains its originally recorded account identifiers.
 
 ## Subsequent standard-task run: incomplete combined report
 
