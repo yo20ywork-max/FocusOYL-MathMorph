@@ -87,7 +87,7 @@ $$
 A positive-definite downstream reader metric $H$ gives $C=H^{1/2}$. With $P_r$ selected from the leading eigenspace of $CWKW^\top C$, the weighted approximation is
 
 $$
-W_r=C^{-1}P_rCW\in\underset{\mathrm{rank}(Z)\leq r}{\arg\min}\thickspace \lVert C(Z-W)K^{1/2}\rVert_F^2.
+W_r=C^{-1}P_rCW\in\underset{\mathrm{rank}(Z)\leq r}{\arg\min}\quad \lVert C(Z-W)K^{1/2}\rVert_F^2.
 $$
 
 A separate branch restricts the update to the orthogonal complement of a fixed readout-contrast subspace, whose orthonormal basis is $Q_A$:
