@@ -43,14 +43,14 @@ $$
 
 This does not control an autoregressive trajectory: later hidden states and token choices can change. A small weight edit need not produce a proportionally small change in accuracy, reasoning length, or termination.
 
-**Prism settings:** block 23 FFN down only, $r=512$, $\varepsilon=0.12$, source F16, no high-dimensional feature metric, no readout protection. The encoded result must be checked independently because $\operatorname{round}_{F16}(T(W))\neq T(W)$ in general.
+**Prism settings:** block 23 FFN down only, $r=512$, $\varepsilon=0.12$, source F16, no high-dimensional feature metric, no readout protection. The encoded result must be checked independently because $\mathrm{round}_{F16}(T(W))\neq T(W)$ in general.
 
 ## 2. Earlier quantization-channel hypothesis
 
 For $A\in\mathbb R^{r\times n}$ and $B\in\mathbb R^{m\times r}$,
 
 $$
-BA=\sum_j b_j a_j^\top,\qquad t_j=\operatorname{vec}(b_ja_j^\top),
+BA=\sum_j b_j a_j^\top,\qquad t_j=\mathrm{vec}(b_ja_j^\top),
 $$
 
 $$
@@ -132,15 +132,15 @@ This yields $\|w_i'\|_2=\|w_i\|_2$ and relative displacement $2\sin(\theta_i/2)$
 For $x\sim\mathcal N(0,I)$ as a **proxy**, absorb the learned normalization scales into gate/up vectors and write
 
 $$
-h_j(x)=\operatorname{SiLU}(g_j^\top x)(u_j^\top x),\quad s_j=\|g_j\|_2,\quad v_j=g_j/s_j.
+h_j(x)=\mathrm{SiLU}(g_j^\top x)(u_j^\top x),\quad s_j=\|g_j\|_2,\quad v_j=g_j/s_j.
 $$
 
 For $Z\sim\mathcal N(0,1)$ define Hermite coefficients
 
 $$
-a_j=\mathbb E[\operatorname{SiLU}(s_jZ)],\quad
-b_j=\mathbb E[Z\operatorname{SiLU}(s_jZ)],\quad
-c_j=\frac{\mathbb E[(Z^2-1)\operatorname{SiLU}(s_jZ)]}{\sqrt2}.
+a_j=\mathbb E[\mathrm{SiLU}(s_jZ)],\quad
+b_j=\mathbb E[Z\mathrm{SiLU}(s_jZ)],\quad
+c_j=\frac{\mathbb E[(Z^2-1)\mathrm{SiLU}(s_jZ)]}{\sqrt2}.
 $$
 
 The implementation uses 48-point Gauss-Hermite quadrature, not an exact finite formula for the original nonlinear integrals. The surrogate is
@@ -173,7 +173,7 @@ $$
 where $Q_r$ spans the leading eigenspace of $M$. For fixed $H\succ0$ and $K\succeq0$, this realizes a solution of
 
 $$
-\min_{\operatorname{rank}(Z)\leq r}\|C(Z-W)K^{1/2}\|_F^2.
+\min_{\mathrm{rank}(Z)\leq r}\|C(Z-W)K^{1/2}\|_F^2.
 $$
 
 This is an approximation objective, not a task-loss objective. The actual reader proxy omits much of the downstream network and is not its complete Jacobian. Setting $H=I,K=I$ recovers the Euclidean control used by Prism.
