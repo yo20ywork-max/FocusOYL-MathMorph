@@ -13,7 +13,7 @@ $$
 Define $\alpha=0$ for $D=0$ or $W=0$. Otherwise,
 
 $$
-\alpha=\min\left(1,\frac{0.98\varepsilon\|W\|_F}{\|D\|_F}\right),\qquad
+\alpha=\min\left(1,\frac{0.98\varepsilon\Vert W\Vert _F}{\Vert D\Vert _F}\right),\qquad
 T(W)=W-\alpha D.
 $$
 
@@ -24,13 +24,13 @@ $$
 $$
 
 $$
-\|T(W)\|_F^2=\|P_rW\|_F^2+(1-\alpha)^2\|D\|_F^2.
+\Vert T(W)\Vert _F^2=\Vert P_rW\Vert _F^2+(1-\alpha)^2\Vert D\Vert _F^2.
 $$
 
 This operator generally **reduces** total weight energy. It is not the energy-preserving NPSR operator. Its error bound is
 
 $$
-\|T(W)-W\|_F=\alpha\|D\|_F\leq0.98\varepsilon\|W\|_F.
+\Vert T(W)-W\Vert _F=\alpha\Vert D\Vert _F\leq0.98\varepsilon\Vert W\Vert _F.
 $$
 
 The leading singular components are unchanged and the tail is attenuated. For $0\leq\alpha<1$, the left multiplier $P_r+(1-\alpha)(I-P_r)$ is invertible, so rank is preserved in exact arithmetic. Full projection is the separate case $\alpha=1$.
@@ -38,7 +38,7 @@ The leading singular components are unchanged and the tail is attenuated. For $0
 For a fixed hidden vector $h$,
 
 $$
-\|\Delta y\|_2=\|\Delta W h\|_2\leq\|\Delta W\|_2\|h\|_2\leq\|\Delta W\|_F\|h\|_2.
+\Vert \Delta y\Vert _2=\Vert \Delta W h\Vert _2\leq\Vert \Delta W\Vert _2\Vert h\Vert _2\leq\Vert \Delta W\Vert _F\Vert h\Vert _2.
 $$
 
 This does not control an autoregressive trajectory: later hidden states and token choices can change. A small weight edit need not produce a proportionally small change in accuracy, reasoning length, or termination.
@@ -87,13 +87,13 @@ The archived implementation combines weights from a gated FFN and normalization 
 For an orthogonal projector $P$, define
 
 $$
-e=\frac{\|PW\|_F^2}{\|W\|_F^2},\qquad V=(P-eI)W.
+e=\frac{\Vert PW\Vert _F^2}{\Vert W\Vert _F^2},\qquad V=(P-eI)W.
 $$
 
 Projector orthogonality gives
 
 $$
-\langle W,V\rangle_F=0,\qquad \|V\|_F^2=e(1-e)\|W\|_F^2.
+\langle W,V\rangle_F=0,\qquad \Vert V\Vert _F^2=e(1-e)\Vert W\Vert _F^2.
 $$
 
 Therefore
@@ -102,10 +102,10 @@ $$
 T_\lambda(W)=\frac{W-\lambda V}{\sqrt{1+\lambda^2e(1-e)}}
 $$
 
-preserves $\|W\|_F$ in exact arithmetic. Its relative displacement is
+preserves $\Vert W\Vert _F$ in exact arithmetic. Its relative displacement is
 
 $$
-\frac{\|T_\lambda(W)-W\|_F}{\|W\|_F}
+\frac{\Vert T_\lambda(W)-W\Vert _F}{\Vert W\Vert _F}
 =\sqrt{2-\frac{2}{\sqrt{1+\lambda^2e(1-e)}}}.
 $$
 
@@ -116,23 +116,23 @@ Positive and negative $\lambda$ redistribute energy in opposite directions. Norm
 For row $w_i$ and proposed projected row $p_i$, remove the radial component:
 
 $$
-v_i=p_i-\frac{\langle p_i,w_i\rangle}{\|w_i\|_2^2}w_i.
+v_i=p_i-\frac{\langle p_i,w_i\rangle}{\Vert w_i\Vert _2^2}w_i.
 $$
 
 Then, with zero-row/tangent branches handled separately,
 
 $$
-w_i'=\cos\theta_i\,w_i+\sin\theta_i\,\|w_i\|_2\frac{v_i}{\|v_i\|_2}.
+w_i'=\cos\theta_i\thinspace w_i+\sin\theta_i\thinspace \Vert w_i\Vert _2\frac{v_i}{\Vert v_i\Vert _2}.
 $$
 
-This yields $\|w_i'\|_2=\|w_i\|_2$ and relative displacement $2\sin(\theta_i/2)$. A per-row budget and a sum of relative tensor budgets constrain the edit but are not network Lipschitz bounds. Independent row rotations do not imply a rank-preservation theorem. In v0.3, the tested two-layer edit recovered a small regression baseline, not a capability advantage.
+This yields $\Vert w_i'\Vert _2=\Vert w_i\Vert _2$ and relative displacement $2\sin(\theta_i/2)$. A per-row budget and a sum of relative tensor budgets constrain the edit but are not network Lipschitz bounds. Independent row rotations do not imply a rank-preservation theorem. In v0.3, the tested two-layer edit recovered a small regression baseline, not a capability advantage.
 
 ## 6. v0.4: cubic interaction-feature geometry
 
 For $x\sim\mathcal N(0,I)$ as a **proxy**, absorb the learned normalization scales into gate/up vectors and write
 
 $$
-h_j(x)=\mathrm{SiLU}(g_j^\top x)(u_j^\top x),\quad s_j=\|g_j\|_2,\quad v_j=g_j/s_j.
+h_j(x)=\mathrm{SiLU}(g_j^\top x)(u_j^\top x),\quad s_j=\Vert g_j\Vert _2,\quad v_j=g_j/s_j.
 $$
 
 For $Z\sim\mathcal N(0,1)$ define Hermite coefficients
@@ -173,7 +173,7 @@ $$
 where $Q_r$ spans the leading eigenspace of $M$. For fixed $H\succ0$ and $K\succeq0$, this realizes a solution of
 
 $$
-\min_{\mathrm{rank}(Z)\leq r}\|C(Z-W)K^{1/2}\|_F^2.
+\min_{\mathrm{rank}(Z)\leq r}\Vert C(Z-W)K^{1/2}\Vert _F^2.
 $$
 
 This is an approximation objective, not a task-loss objective. The actual reader proxy omits much of the downstream network and is not its complete Jacobian. Setting $H=I,K=I$ recovers the Euclidean control used by Prism.
