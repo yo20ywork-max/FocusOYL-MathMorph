@@ -1,0 +1,25 @@
+{
+  "manifest_sha256": "a4d832bf5ec6fd59948e5dea7efa0e428f940aa415617c49df05d00f74c0d776",
+  "source_unchanged": true,
+  "verified_candidate_count": 10,
+  "owned_servers_closed": 15,
+  "owned_server_processes_remaining": [],
+  "n_scored_requests": 1049,
+  "second_holdout_evaluated": false,
+  "final_release": "RETAIN_ORIGINAL",
+  "deleted_staging_bytes": 49619,
+  "archive": {
+    "path": "C:\\Users\\YOUR_USER\\Documents\\FocusOYL-MathMorph-20260905-D\\MathMorph-v04-Full-Local-Records.zip",
+    "bytes": 2583532,
+    "files": 1234,
+    "sha256": "c4e58e13f81b94c132b0a5459a13a9e83580e2a057f668f2941d18cf9aacf538",
+    "contains_weights": false
+  },
+  "versions": {
+    "numpy": "1.26.4",
+    "gguf": "0.19.0",
+    "requests": "2.34.2",
+    "pyarrow": "25.0.1"
+  },
+  "automatic_restart": false
+}

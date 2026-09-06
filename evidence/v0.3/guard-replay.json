@@ -1,0 +1,1134 @@
+{
+  "source_sha256": "f443eb51c1c343d25eee68508cbb3bab7da16e1b0b8cb82a4c9673de7461ee55",
+  "detector_sha256": "4c943a61300531cc71cbabae4203250fbb8505d57b6d71f8f7ddd8839e280e20",
+  "summary": {
+    "NATURAL_STOP": {
+      "n": 122,
+      "guard_triggered": 0,
+      "median_first_trigger_chars": null
+    },
+    "OBSERVATION_CENSORED": {
+      "n": 37,
+      "guard_triggered": 31,
+      "median_first_trigger_chars": 11200
+    }
+  },
+  "rows": [
+    {
+      "id": "ARC-Challenge:Mercury_406800",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1387,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7109603",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1909,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_SC_401360",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2227,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:MCAS_1998_4_19",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2194,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7103600",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2488,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:LEAP_2005_8_10404",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2575,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:MDSA_2012_8_16",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2427,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7108868",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2052,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:MCAS_2001_5_2",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2087,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:ACTAAP_2014_7_3",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2770,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7082845",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 6526,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_SC_415422",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2195,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7206378",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2336,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7164623",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2116,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:AKDE&ED_2008_8_47",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 7605,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:MDSA_2011_5_23",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2203,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7017710",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2256,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_SC_417677",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1789,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_SC_407070",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 4445,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_SC_405640",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 3471,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_400084",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1381,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_416576",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 3992,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:MCAS_2003_8_7",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1384,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:ACTAAP_2009_7_8",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 12040,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7011323",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 16544,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_SC_LBS10027",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 754,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:AKDE&ED_2008_8_7",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 3284,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_410807",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 19695,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_415083",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1193,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7202843",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 18315,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:NAEP_2005_4_S13+14",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 3282,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_400750",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 59105,
+      "guard_triggered": true,
+      "first_trigger_chars": 8800
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7221043",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 77217,
+      "guard_triggered": true,
+      "first_trigger_chars": 8000
+    },
+    {
+      "id": "ARC-Challenge:Mercury_LBS10610",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 61902,
+      "guard_triggered": true,
+      "first_trigger_chars": 12000
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7214778",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2054,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:LEAP_2001_8_10379",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 3219,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:TIMSS_2003_8_pg80",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 56781,
+      "guard_triggered": true,
+      "first_trigger_chars": 16000
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7216248",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 61217,
+      "guard_triggered": true,
+      "first_trigger_chars": 27200
+    },
+    {
+      "id": "ARC-Challenge:MCAS_2006_9_28-v1",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2463,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7109463",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 3174,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7192798",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 12050,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7247013",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 5708,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7212888",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2863,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:TAKS_2009_5_26",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 56114,
+      "guard_triggered": true,
+      "first_trigger_chars": 20000
+    },
+    {
+      "id": "ARC-Challenge:Mercury_404820",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2076,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7017045",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2046,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_401502",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1855,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:MCAS_2000_8_29",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 3455,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7044328",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1583,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7102323",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2682,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7150728",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 3128,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:TAKS_2009_8_27",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2060,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_407664",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1718,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7103530",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 3234,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_LBS10933",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 38130,
+      "guard_triggered": true,
+      "first_trigger_chars": 8800
+    },
+    {
+      "id": "ARC-Challenge:Mercury_SC_413549",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 51536,
+      "guard_triggered": true,
+      "first_trigger_chars": 8000
+    },
+    {
+      "id": "ARC-Challenge:MCAS_2000_4_10",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2676,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:MEA_2013_8_8",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1300,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_SC_407080",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 10355,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7213413",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 48266,
+      "guard_triggered": true,
+      "first_trigger_chars": 8000
+    },
+    {
+      "id": "ARC-Challenge:Mercury_415268",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 3565,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_401684",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2593,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_SC_410963",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 62775,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7212818",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 4376,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7085225",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 44516,
+      "guard_triggered": true,
+      "first_trigger_chars": 12000
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7268258",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2338,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7227710",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 88612,
+      "guard_triggered": true,
+      "first_trigger_chars": 8800
+    },
+    {
+      "id": "ARC-Challenge:NYSEDREGENTS_2008_4_12",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 83396,
+      "guard_triggered": true,
+      "first_trigger_chars": 9600
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7131530",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 85161,
+      "guard_triggered": true,
+      "first_trigger_chars": 38400
+    },
+    {
+      "id": "ARC-Challenge:Mercury_414352",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 3591,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:MCAS_2009_5_6519",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 4064,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_SC_400400",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 90675,
+      "guard_triggered": true,
+      "first_trigger_chars": 11200
+    },
+    {
+      "id": "ARC-Challenge:Mercury_SC_414339",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 87644,
+      "guard_triggered": true,
+      "first_trigger_chars": 15200
+    },
+    {
+      "id": "ARC-Challenge:LEAP__4_10225",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1601,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:NCEOGA_2013_5_9",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1962,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7138915",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2904,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7123078",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1806,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_SC_401116",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1494,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:MDSA_2008_8_20",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2164,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:MDSA_2009_5_20",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 102084,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_SC_408321",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 4712,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_400877",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 77638,
+      "guard_triggered": true,
+      "first_trigger_chars": 12000
+    },
+    {
+      "id": "ARC-Challenge:Mercury_SC_416108",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 77225,
+      "guard_triggered": true,
+      "first_trigger_chars": 6400
+    },
+    {
+      "id": "ARC-Challenge:Mercury_405873",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 8206,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_SC_401818",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 6776,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:AKDE&ED_2008_4_19",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1790,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7005425",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 94964,
+      "guard_triggered": true,
+      "first_trigger_chars": 14400
+    },
+    {
+      "id": "ARC-Challenge:Mercury_SC_407689",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2947,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:MCAS_2013_8_29435",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 98661,
+      "guard_triggered": true,
+      "first_trigger_chars": 19200
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7108990",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 41719,
+      "guard_triggered": true,
+      "first_trigger_chars": 9600
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7027248",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2656,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7015540",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1682,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:MCAS_2000_4_26",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 100056,
+      "guard_triggered": true,
+      "first_trigger_chars": 12000
+    },
+    {
+      "id": "ARC-Easy:Mercury_7247083",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2567,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:Mercury_192868",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1422,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:Mercury_7057960",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 4012,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:NYSEDREGENTS_2012_4_4",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2053,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:NYSEDREGENTS_2013_8_35",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 3145,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7109323",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 106716,
+      "guard_triggered": true,
+      "first_trigger_chars": 8800
+    },
+    {
+      "id": "ARC-Easy:AKDE&ED_2012_4_39",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 769,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:MDSA_2013_8_33",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1349,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:Mercury_7008208",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1052,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:VASoL_2010_3_2",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1741,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:Mercury_SC_414155",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2147,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:VASoL_2008_5_11",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1508,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_7030870",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 89806,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:TIMSS_2011_8_pg102",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 116560,
+      "guard_triggered": true,
+      "first_trigger_chars": 10400
+    },
+    {
+      "id": "ARC-Easy:Mercury_7267943",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2304,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:Mercury_184888",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2098,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:Mercury_SC_408362",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1497,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:Mercury_7128853",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 3332,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:Mercury_7008960",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2457,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:AIMS_2008_8_13",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 83827,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:MCAS_2011_8_17685",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2139,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:ACTAAP_2009_7_12",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1922,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:NYSEDREGENTS_2008_8_15",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1646,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:Mercury_SC_402258",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1393,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:AIMS_2008_8_7",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1609,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:NYSEDREGENTS_2015_4_19",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1271,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_SC_415473",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 97567,
+      "guard_triggered": true,
+      "first_trigger_chars": 7200
+    },
+    {
+      "id": "ARC-Easy:ACTAAP_2008_5_13",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1369,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_SC_LBS10265",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 65625,
+      "guard_triggered": true,
+      "first_trigger_chars": 17600
+    },
+    {
+      "id": "ARC-Easy:NCEOGA_2013_8_6",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1695,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:NYSEDREGENTS_2015_4_27",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1809,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:LEAP_2005_4_10267",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1501,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Challenge:Mercury_SC_413439",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 115076,
+      "guard_triggered": true,
+      "first_trigger_chars": 16000
+    },
+    {
+      "id": "ARC-Easy:VASoL_2009_3_29",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 3549,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:Mercury_7205573",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 5125,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:NYSEDREGENTS_2013_8_5",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2622,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:Mercury_7180705",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1840,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:Mercury_SC_LBS10026",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 10666,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:NYSEDREGENTS_2008_8_4",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1686,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:Mercury_SC_408344",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 998,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:Mercury_7077578",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 103667,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:Mercury_7217350",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1357,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:Mercury_7200148",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 6045,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:Mercury_416539",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1769,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:TAKS_2009_5_28",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 14274,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:Mercury_7284008",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2323,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:Mercury_7252298",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2441,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:TAKS_2009_8_11",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 6284,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:Mercury_7206605",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 106435,
+      "guard_triggered": true,
+      "first_trigger_chars": 18400
+    },
+    {
+      "id": "ARC-Easy:Mercury_7044188",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2823,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:Mercury_7199045",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1439,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:Mercury_7083598",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 7837,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:MCAS_2000_4_31",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2879,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:Mercury_190190",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 107405,
+      "guard_triggered": true,
+      "first_trigger_chars": 15200
+    },
+    {
+      "id": "ARC-Easy:MCAS_2005_5_14",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1428,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:Mercury_416684",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2353,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:Mercury_7003623",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1762,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:Mercury_SC_413002",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1308,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:ACTAAP_2014_5_12",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 2482,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:Mercury_SC_400603",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1999,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:LEAP__8_10366",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 108831,
+      "guard_triggered": true,
+      "first_trigger_chars": 10400
+    },
+    {
+      "id": "ARC-Easy:Mercury_7056315",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 75615,
+      "guard_triggered": true,
+      "first_trigger_chars": 8800
+    },
+    {
+      "id": "ARC-Easy:TIMSS_2011_4_pg24",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 114543,
+      "guard_triggered": true,
+      "first_trigger_chars": 8000
+    },
+    {
+      "id": "ARC-Easy:NYSEDREGENTS_2008_8_7",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1562,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:Mercury_401246",
+      "old_status": "NATURAL_STOP",
+      "reasoning_chars": 1212,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    },
+    {
+      "id": "ARC-Easy:AKDE&ED_2008_8_50",
+      "old_status": "OBSERVATION_CENSORED",
+      "reasoning_chars": 124901,
+      "guard_triggered": false,
+      "first_trigger_chars": null
+    }
+  ],
+  "is_offline_replay": true,
+  "not_measured_time_or_token_savings": true,
+  "same_diagnosis_data_not_independent_validation": true
+}

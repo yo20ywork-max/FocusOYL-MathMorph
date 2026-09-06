@@ -1,0 +1,184 @@
+{
+  "created_utc": "2026-09-05T14:57:44.407706+00:00",
+  "selected": "lifted_last_mild",
+  "original_protocol_n": 160,
+  "nonoverlap_n": 156,
+  "pretest_addendum_sha256": "3f8e4720f4114f724e7a22101fe182e92eb6360a731760b50b11f864c6dc2f2b",
+  "exclusions": [
+    "mm04-holdout-code-1",
+    "mm04-holdout-code-13",
+    "mm04-holdout-code-5",
+    "mm04-holdout-code-9"
+  ],
+  "raw_data_and_scores_verified": true,
+  "raw_file_hashes": {
+    "original": "6cfed2fb9b080d840db1f5f5d61570a4ceb8916c00d6ece560b50f5ac4840e6b",
+    "lifted_last_mild": "dd892bea233a6125fde2788dac20f3713703ff236f413324c5b0ebe0c444f1c4",
+    "euclid_control": "06a53efa560c2fdaa6e021dc09843d5815644f829328973844f7d5d0b1b3a432"
+  },
+  "summaries": {
+    "original": {
+      "n": 156,
+      "correct": 110,
+      "status": {
+        "TOKEN_LIMIT": 17,
+        "NATURAL_STOP": 139
+      },
+      "reasoning_nonempty": 156,
+      "reported_completion_tokens": 107200,
+      "usage_known_rows": 156,
+      "missing_usage_rows": 0,
+      "mean_reported_tokens": 687.1794871794872,
+      "p95_reported_tokens": 2048,
+      "max_tail_duplicate12_rate": 0.35145267104029987,
+      "categories": {
+        "ARC-Challenge": {
+          "n": 64,
+          "correct": 38
+        },
+        "ARC-Easy": {
+          "n": 64,
+          "correct": 49
+        },
+        "arithmetic": {
+          "n": 16,
+          "correct": 15
+        },
+        "code": {
+          "n": 12,
+          "correct": 8
+        }
+      }
+    },
+    "lifted_last_mild": {
+      "n": 156,
+      "correct": 113,
+      "status": {
+        "TOKEN_LIMIT": 17,
+        "NATURAL_STOP": 139
+      },
+      "reasoning_nonempty": 156,
+      "reported_completion_tokens": 108138,
+      "usage_known_rows": 156,
+      "missing_usage_rows": 0,
+      "mean_reported_tokens": 693.1923076923077,
+      "p95_reported_tokens": 2048,
+      "max_tail_duplicate12_rate": 0.29431438127090304,
+      "categories": {
+        "ARC-Challenge": {
+          "n": 64,
+          "correct": 41
+        },
+        "ARC-Easy": {
+          "n": 64,
+          "correct": 49
+        },
+        "arithmetic": {
+          "n": 16,
+          "correct": 15
+        },
+        "code": {
+          "n": 12,
+          "correct": 8
+        }
+      }
+    },
+    "euclid_control": {
+      "n": 156,
+      "correct": 121,
+      "status": {
+        "TOKEN_LIMIT": 11,
+        "NATURAL_STOP": 145
+      },
+      "reasoning_nonempty": 156,
+      "reported_completion_tokens": 97038,
+      "usage_known_rows": 156,
+      "missing_usage_rows": 0,
+      "mean_reported_tokens": 622.0384615384615,
+      "p95_reported_tokens": 2048,
+      "max_tail_duplicate12_rate": 0.21489001692047383,
+      "categories": {
+        "ARC-Challenge": {
+          "n": 64,
+          "correct": 48
+        },
+        "ARC-Easy": {
+          "n": 64,
+          "correct": 50
+        },
+        "arithmetic": {
+          "n": 16,
+          "correct": 16
+        },
+        "code": {
+          "n": 12,
+          "correct": 7
+        }
+      }
+    }
+  },
+  "comparisons": {
+    "lifted_last_mild": {
+      "n": 156,
+      "baseline": 110,
+      "candidate": 113,
+      "delta_pp": 1.9230769230769231,
+      "wins": 11,
+      "losses": 8,
+      "two_sided_exact_p": 0.6476058959960938,
+      "p_adjusted": 1.0,
+      "token_ratio": 1.00875,
+      "category_delta_pp": {
+        "ARC-Challenge": 4.6875,
+        "ARC-Easy": 0.0,
+        "arithmetic": 0.0,
+        "code": 0.0
+      },
+      "valid_observation": true,
+      "no_extra_abort": true,
+      "gates": {
+        "gain_pp_min": 5.0,
+        "two_sided_p_max": 0.05,
+        "cost_ratio_max": 1.15,
+        "observed_category_regression_max_pp": 2.0,
+        "holdout_multiple_comparisons": 2
+      },
+      "release": "RETAIN_ORIGINAL",
+      "universal_gain_proven": false,
+      "theoretical_model_limit_broken": false
+    },
+    "euclid_control": {
+      "n": 156,
+      "baseline": 110,
+      "candidate": 121,
+      "delta_pp": 7.051282051282051,
+      "wins": 17,
+      "losses": 6,
+      "two_sided_exact_p": 0.03468966484069824,
+      "p_adjusted": 0.06937932968139648,
+      "token_ratio": 0.905205223880597,
+      "category_delta_pp": {
+        "ARC-Challenge": 15.625,
+        "ARC-Easy": 1.5625,
+        "arithmetic": 6.25,
+        "code": -8.333333333333334
+      },
+      "valid_observation": true,
+      "no_extra_abort": true,
+      "gates": {
+        "gain_pp_min": 5.0,
+        "two_sided_p_max": 0.05,
+        "cost_ratio_max": 1.15,
+        "observed_category_regression_max_pp": 2.0,
+        "holdout_multiple_comparisons": 2
+      },
+      "release": "RETAIN_ORIGINAL",
+      "universal_gain_proven": false,
+      "theoretical_model_limit_broken": false
+    }
+  },
+  "release": "RETAIN_ORIGINAL",
+  "scope": "Fixed checkpoint and finite greedy-think budget; not universal ability or unseen task-family generalization.",
+  "universal_gain_proven": false,
+  "theoretical_model_limit_broken": false
+}

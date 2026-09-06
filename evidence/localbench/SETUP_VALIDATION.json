@@ -1,0 +1,12 @@
+{
+  "--self-test": {
+    "returncode": 0,
+    "log": "selftest.log"
+  },
+  "--check": {
+    "returncode": 0,
+    "log": "preflight.log"
+  },
+  "timestamp": "2026-09-05T17:13:59.189039+00:00",
+  "model_inference_started": false
+}

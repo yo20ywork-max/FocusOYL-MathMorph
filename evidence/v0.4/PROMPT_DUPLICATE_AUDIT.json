@@ -1,0 +1,33 @@
+{
+  "method": "casefold whitespace normalized prompt hash; no answer or output inspection",
+  "within": {
+    "development": [
+      [
+        "mm04-dev-code-1",
+        "mm04-dev-code-5"
+      ]
+    ],
+    "holdout": [
+      [
+        "mm04-holdout-code-1",
+        "mm04-holdout-code-5",
+        "mm04-holdout-code-9",
+        "mm04-holdout-code-13"
+      ]
+    ]
+  },
+  "overlap": [
+    {
+      "development_ids": [
+        "mm04-dev-code-1",
+        "mm04-dev-code-5"
+      ],
+      "holdout_ids": [
+        "mm04-holdout-code-1",
+        "mm04-holdout-code-5",
+        "mm04-holdout-code-9",
+        "mm04-holdout-code-13"
+      ]
+    }
+  ]
+}

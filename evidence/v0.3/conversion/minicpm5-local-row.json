@@ -1,0 +1,90 @@
+{
+  "version": "0.3.0",
+  "method": "local-row-tangent-NPSR",
+  "created_utc": "2026-09-05T11:13:36.688419+00:00",
+  "input": "C:\\Users\\YOUR_USER\\Documents\\Codex\\2026-08-30\\new-chat-2\\outputs\\focusoyl-tools\\models\\MiniCPM5-1B-F16.gguf",
+  "source_sha256": "68c40b08b1242754a107b9510af89aa75b10c75843ca7844643c70956b7f1e3d",
+  "policy": {
+    "profile": "middle-pair",
+    "total_budget": 0.02,
+    "row_budget": 0.01,
+    "rank": 16,
+    "strength": 0.35,
+    "seed": 20260905,
+    "workspace_gib": 2.0
+  },
+  "names": [
+    "blk.8.ffn_down.weight",
+    "blk.15.ffn_down.weight"
+  ],
+  "per_tensor_allocation": 0.01,
+  "training": false,
+  "evaluation_data_used_for_weights": false,
+  "parameters_added": 0,
+  "protected": "all unselected bytes, including ALL attention projections, embedding/output, norms and chat template",
+  "protection_note": "Byte preservation is not a functional termination guarantee",
+  "stability_status": "UNTESTED",
+  "capability_status": "UNVERIFIED",
+  "release": "RETAIN_ORIGINAL",
+  "source_code_sha256": {
+    "guarded.py": "8ccef82a7b559ca51bf0ea38ca2e59179150e02bc6b7e5a4b7c60119aaf9d279",
+    "ggufio.py": "bb4c1a60d152ee78af97c005f4a99ca6e3869f9ccf8592aee58d860c5951b62c",
+    "mathcore.py": "c4d4ae553dfe2182930e0afa6df4c821b2523179c812f91b913b2903b4975f14",
+    "pipeline.py": "399e3c2009b60a668e99c526f738033a3d25091f4f0c9e9e54f0b47fc0c1baf7"
+  },
+  "tensors": [
+    {
+      "name": "blk.8.ffn_down.weight",
+      "shape": [
+        1536,
+        4608
+      ],
+      "type": "F16",
+      "ideal": {
+        "max_row_change": 0.007500001224332882,
+        "max_row_norm_drift": 5.049618249883059e-09,
+        "relative_change": 0.007499999996783852
+      },
+      "actual": {
+        "max_row_change": 0.007514889478369124,
+        "max_row_norm_drift": 4.942153455861451e-05,
+        "relative_change": 0.007502935488387141
+      },
+      "patch_sha256": "952bded2b6a78d636b3c222e0d711e2a7c2ac88ee05484e0bcb5e67de857038c"
+    },
+    {
+      "name": "blk.15.ffn_down.weight",
+      "shape": [
+        1536,
+        4608
+      ],
+      "type": "F16",
+      "ideal": {
+        "max_row_change": 0.00750000148172221,
+        "max_row_norm_drift": 3.968241063177695e-09,
+        "relative_change": 0.007500000009594019
+      },
+      "actual": {
+        "max_row_change": 0.007514241860465911,
+        "max_row_norm_drift": 2.5005700230656602e-05,
+        "relative_change": 0.007502934876601733
+      },
+      "patch_sha256": "b49169c7b47dc6b2e3b82f61059427756a958a584b0ae18968dacda1831c29bd"
+    }
+  ],
+  "measured_weight_budget": 0.015005870364988873,
+  "candidate": {
+    "path": "C:\\Users\\YOUR_USER\\Documents\\FocusOYL-MathMorph-20260905-C\\runs\\minicpm5-local-row\\candidate.gguf",
+    "sha256": "ce450abef53523c081488b4159309aa858f43bc15992b254f35d3282c4715c22",
+    "bytes": 2166551936
+  },
+  "structural_status": "PASS",
+  "source_unchanged": true,
+  "byte_audit": {
+    "unaltered_bytes_verified": 2138240384,
+    "file_size_unchanged": true,
+    "metadata_byte_identical": true,
+    "tensor_layout_unchanged": true
+  },
+  "elapsed_seconds": 63.06299999996554
+}

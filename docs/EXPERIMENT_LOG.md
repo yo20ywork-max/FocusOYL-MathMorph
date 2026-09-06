@@ -74,7 +74,7 @@ The Euclidean control was named FocusOYL Prism-1B F16 Experimental-01. It was no
 
 The local benchmark setup uses the actual `lm-evaluation-harness` GSM8K and IFEval task definitions, with a documented local API adapter and common 4,096-token generation setting. During this publication task, an existing saved run was found. **No new model inference was started for publication.**
 
-Its aggregate report is `INCOMPLETE`. The stored paired GSM8K flexible-extraction score is 0.7270659591 for original and 0.7043214556 for Prism, a difference of -2.27445 percentage points. Strict-extraction scores are near zero, which must remain visible as a formatting/extraction distinction rather than being silently replaced. A Prism IFEval result exists, but a completed paired original IFEval result is not certified in the available aggregate.
+Its aggregate report is `INCOMPLETE`. The saved paired GSM8K flexible-extraction score is 0.7043214556 for original and 0.7270659591 for Prism, a difference of +2.27445 percentage points. During publication, each was re-summed from 1,319 item-level metric records; filter-specific records are kept separately. Strict-extraction scores are 0.0022744503 and 0.0053070508. They remain visible rather than being silently replaced. An original IFEval result exists, but a completed paired Prism IFEval comparison is not certified in this snapshot.
 
 We publish sanitized result snapshots and per-item metric/hash data, not a fabricated completed comparison. Runtime request counts can include auxiliary probes and must not be treated as the number of benchmark questions. See `evidence/localbench/latest_incomplete/` and the evaluation report.
 

@@ -1,0 +1,14 @@
+test_contrast_protection (test_publication.PublicationTests.test_contrast_protection) ... ok
+test_energy_relation (test_publication.PublicationTests.test_energy_relation) ... ok
+test_euclidean_direction (test_publication.PublicationTests.test_euclidean_direction) ... ok
+test_evidence_identity (test_publication.PublicationTests.test_evidence_identity) ... ok
+test_orthogonal_split (test_publication.PublicationTests.test_orthogonal_split) ... ok
+test_projector (test_publication.PublicationTests.test_projector) ... ok
+test_recipe_identity (test_publication.PublicationTests.test_recipe_identity) ... ok
+test_weight_budget (test_publication.PublicationTests.test_weight_budget) ... ok
+test_zero_residual (test_publication.PublicationTests.test_zero_residual) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.059s
+
+OK

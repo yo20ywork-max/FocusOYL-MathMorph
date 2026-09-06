@@ -1,0 +1,126 @@
+{
+  "method": "cubic-feature-reader-metric-tail",
+  "version": "0.4.0",
+  "recipe": {
+    "label": "lifted_cross",
+    "layers": [
+      20,
+      22
+    ],
+    "rank": 512,
+    "budget": 0.04,
+    "geometry": true
+  },
+  "source": "C:\\Users\\YOUR_USER\\Documents\\Codex\\2026-08-30\\new-chat-2\\outputs\\focusoyl-tools\\models\\MiniCPM5-1B-F16.gguf",
+  "source_sha256": "68c40b08b1242754a107b9510af89aa75b10c75843ca7844643c70956b7f1e3d",
+  "architecture": "llama",
+  "started_utc": "2026-09-05T14:16:59.854551+00:00",
+  "training": false,
+  "calibration_examples": false,
+  "answers_in_conversion": false,
+  "added_parameters": 0,
+  "capability_status": "UNVERIFIED",
+  "release": "RETAIN_ORIGINAL",
+  "code_sha256": {
+    "convert_geometry.py": "0b4505edd5e5b31967ab48f07e06196f319e3b789b8a04a9311e9c429131e347",
+    "geometry.py": "7098540cb204702659e5d24637d2223fbc7f4134ce619fbecf431bbe4f187c1c"
+  },
+  "tensors": [
+    {
+      "name": "blk.20.ffn_down.weight",
+      "geometry": {
+        "kernel": {
+          "quadrature_nodes": 48,
+          "coefficient_orders": [
+            0,
+            1,
+            2
+          ],
+          "feature_chaoses": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "kernel_scale_removed": 0.434977263212204,
+          "assumption": "isotropic Gaussian after absorbing learned norm; cubic SiLU surrogate",
+          "true_activation_covariance": false
+        },
+        "reader_type": "next_ffn_gate_up",
+        "metric": {
+          "ridge": 0.25,
+          "min_eigenvalue": 0.27159074491113894,
+          "max_eigenvalue": 3.7764028270418524
+        },
+        "projection": {
+          "rank": 512,
+          "proxy_energy_retained": 0.6947301320791782,
+          "covariance_eigen_min": 0.08726887192145698,
+          "covariance_eigen_max": 641.6344697497251,
+          "tail_relative_norm": 0.6673591136932373
+        }
+      },
+      "shrink": {
+        "alpha": 0.05873239544275314,
+        "relative_change": 0.03920000000114649,
+        "weight_bound_only": true
+      },
+      "encoded_relative_change": 0.039204031229019165
+    },
+    {
+      "name": "blk.22.ffn_down.weight",
+      "geometry": {
+        "kernel": {
+          "quadrature_nodes": 48,
+          "coefficient_orders": [
+            0,
+            1,
+            2
+          ],
+          "feature_chaoses": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "kernel_scale_removed": 0.7909323573112488,
+          "assumption": "isotropic Gaussian after absorbing learned norm; cubic SiLU surrogate",
+          "true_activation_covariance": false
+        },
+        "reader_type": "next_ffn_gate_up",
+        "metric": {
+          "ridge": 0.25,
+          "min_eigenvalue": 0.2929577282261941,
+          "max_eigenvalue": 14.06370867103766
+        },
+        "projection": {
+          "rank": 512,
+          "proxy_energy_retained": 0.7215757415531835,
+          "covariance_eigen_min": 0.20512757288558564,
+          "covariance_eigen_max": 1290.076750923434,
+          "tail_relative_norm": 0.670627236366272
+        }
+      },
+      "shrink": {
+        "alpha": 0.05844598172385131,
+        "relative_change": 0.03920000000722224,
+        "weight_bound_only": true
+      },
+      "encoded_relative_change": 0.039204251021146774
+    }
+  ],
+  "byte_audit": {
+    "unaltered_bytes_verified": 2138240384,
+    "file_size_unchanged": true,
+    "metadata_byte_identical": true,
+    "tensor_layout_unchanged": true
+  },
+  "candidate": {
+    "path": "C:\\Users\\YOUR_USER\\Documents\\FocusOYL-MathMorph-20260905-D\\study\\models\\lifted_cross\\candidate.gguf",
+    "sha256": "6b7ef2aa4a401dbd43b4a14f1375f28753e553b2a0062ef7dacb6e431fe61e69",
+    "bytes": 2166551936
+  },
+  "source_unchanged": true,
+  "seconds": 40.43699999997625,
+  "structural_status": "PASS"
+}

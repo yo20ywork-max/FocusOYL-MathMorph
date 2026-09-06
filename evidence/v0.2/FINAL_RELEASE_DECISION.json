@@ -1,0 +1,99 @@
+{
+  "general_release": "RETAIN_ORIGINAL",
+  "universal_compatibility_verified": false,
+  "universal_gain_proven": false,
+  "model_limit_broken": false,
+  "scoped_arithmetic_confirmation": {
+    "primary-mulsub": {
+      "n": 96,
+      "baseline": 37,
+      "candidate": 90,
+      "delta_pp": 55.208333333333336,
+      "wins": 56,
+      "losses": 3,
+      "ties": 37,
+      "one_sided_exact_p": 5.946632075648495e-14,
+      "p_assumption": "exchangeability of paired correctness under null; samples do not certify arbitrary tasks",
+      "p_bonferroni_3": 1.7839896226945484e-13,
+      "completion_tokens": {
+        "original": 575,
+        "sharpen": 5531
+      },
+      "truncated": {
+        "original": 0,
+        "sharpen": 1
+      }
+    },
+    "secondary-composition": {
+      "n": 48,
+      "baseline": 11,
+      "candidate": 46,
+      "delta_pp": 72.91666666666667,
+      "wins": 36,
+      "losses": 1,
+      "ties": 11,
+      "one_sided_exact_p": 2.764863893389702e-10,
+      "p_assumption": "exchangeability of paired correctness under null; samples do not certify arbitrary tasks",
+      "p_bonferroni_3": 8.294591680169106e-10,
+      "completion_tokens": {
+        "original": 294,
+        "sharpen": 2880
+      },
+      "truncated": {
+        "original": 0,
+        "sharpen": 0
+      }
+    },
+    "control-explicit-steps": {
+      "n": 48,
+      "baseline": 47,
+      "candidate": 48,
+      "delta_pp": 2.0833333333333335,
+      "wins": 1,
+      "losses": 0,
+      "ties": 47,
+      "one_sided_exact_p": 0.5,
+      "p_assumption": "exchangeability of paired correctness under null; samples do not certify arbitrary tasks",
+      "p_bonferroni_3": 1,
+      "completion_tokens": {
+        "original": 2964,
+        "sharpen": 4034
+      },
+      "truncated": {
+        "original": 0,
+        "sharpen": 0
+      }
+    }
+  },
+  "all_originals_unchanged": true,
+  "candidates": [
+    {
+      "run": "minicpm5-npsr",
+      "candidate": "flatten",
+      "exists": true,
+      "bytes": 2166551936,
+      "hash_verified": true
+    },
+    {
+      "run": "minicpm5-npsr",
+      "candidate": "sharpen",
+      "exists": true,
+      "bytes": 2166551936,
+      "hash_verified": true
+    },
+    {
+      "run": "minimind3-npsr",
+      "candidate": "flatten",
+      "exists": true,
+      "bytes": 37508320,
+      "hash_verified": true
+    },
+    {
+      "run": "minimind3-npsr",
+      "candidate": "sharpen",
+      "exists": true,
+      "bytes": 37508320,
+      "hash_verified": true
+    }
+  ]
+}

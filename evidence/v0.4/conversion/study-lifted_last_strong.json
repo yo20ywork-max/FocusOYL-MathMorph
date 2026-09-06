@@ -1,0 +1,84 @@
+{
+  "method": "cubic-feature-reader-metric-tail",
+  "version": "0.4.0",
+  "recipe": {
+    "label": "lifted_last_strong",
+    "layers": [
+      23
+    ],
+    "rank": 512,
+    "budget": 0.12,
+    "geometry": true
+  },
+  "source": "C:\\Users\\YOUR_USER\\Documents\\Codex\\2026-08-30\\new-chat-2\\outputs\\focusoyl-tools\\models\\MiniCPM5-1B-F16.gguf",
+  "source_sha256": "68c40b08b1242754a107b9510af89aa75b10c75843ca7844643c70956b7f1e3d",
+  "architecture": "llama",
+  "started_utc": "2026-09-05T14:16:48.231503+00:00",
+  "training": false,
+  "calibration_examples": false,
+  "answers_in_conversion": false,
+  "added_parameters": 0,
+  "capability_status": "UNVERIFIED",
+  "release": "RETAIN_ORIGINAL",
+  "code_sha256": {
+    "convert_geometry.py": "0b4505edd5e5b31967ab48f07e06196f319e3b789b8a04a9311e9c429131e347",
+    "geometry.py": "7098540cb204702659e5d24637d2223fbc7f4134ce619fbecf431bbe4f187c1c"
+  },
+  "tensors": [
+    {
+      "name": "blk.23.ffn_down.weight",
+      "geometry": {
+        "kernel": {
+          "quadrature_nodes": 48,
+          "coefficient_orders": [
+            0,
+            1,
+            2
+          ],
+          "feature_chaoses": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "kernel_scale_removed": 0.8451771140098572,
+          "assumption": "isotropic Gaussian after absorbing learned norm; cubic SiLU surrogate",
+          "true_activation_covariance": false
+        },
+        "reader_type": "4096_uniform_vocabulary_rows",
+        "metric": {
+          "ridge": 0.25,
+          "min_eigenvalue": 0.25797592859629437,
+          "max_eigenvalue": 362.98411135909737
+        },
+        "projection": {
+          "rank": 512,
+          "proxy_energy_retained": 0.813435732138347,
+          "covariance_eigen_min": 0.23572997636738935,
+          "covariance_eigen_max": 3467.908686218711,
+          "tail_relative_norm": 0.6710613369941711
+        }
+      },
+      "shrink": {
+        "alpha": 0.1752249762123738,
+        "relative_change": 0.11759999997696868,
+        "weight_bound_only": true
+      },
+      "encoded_relative_change": 0.11759932339191437
+    }
+  ],
+  "byte_audit": {
+    "unaltered_bytes_verified": 2152396160,
+    "file_size_unchanged": true,
+    "metadata_byte_identical": true,
+    "tensor_layout_unchanged": true
+  },
+  "candidate": {
+    "path": "C:\\Users\\YOUR_USER\\Documents\\FocusOYL-MathMorph-20260905-D\\study\\models\\lifted_last_strong\\candidate.gguf",
+    "sha256": "131d77564fe544a56836c190915f9584a9ec226fb85d7077a54a7abb4a6cf89b",
+    "bytes": 2166551936
+  },
+  "source_unchanged": true,
+  "seconds": 9.26600000000326,
+  "structural_status": "PASS"
+}

@@ -1,0 +1,39 @@
+{
+  "status": "INCOMPLETE_COMPARISON",
+  "snapshot_utc": "2026-09-06T18:25:38.208563+00:00",
+  "source": "existing user-run output, no new inference",
+  "verified_snapshot_scope": "paired GSM8K aggregate re-summed from 1319 per-item metric records per filter; original IFEval result exists; final paired IFEval unavailable",
+  "no_leaderboard_submission": true,
+  "provenance": [
+    {
+      "source_relative_path": "comparison.json",
+      "source_sha256": "d9a47f91e94dcb0805d13d61b9def62c511a3888c29888daa9cb4fe883dcf209",
+      "published_path": "evidence/localbench/latest_incomplete/comparison.json",
+      "published_sha256": "0000749b793c97a23893187ec08e06917671d096e1436b531c0105cdc1704475"
+    },
+    {
+      "source_relative_path": "protocol.json",
+      "source_sha256": "71dcc5606e642bfa9f5eaa67b8a739f2e7e54f1c7b979c70ba7050c0c48dd257",
+      "published_path": "evidence/localbench/latest_incomplete/protocol.json",
+      "published_sha256": "d5adf0dbf002b54100b8603eb5abc69d88ed734ecff0d2c31edfdc7ed3577ecd"
+    },
+    {
+      "source_relative_path": "original\\gsm8k_cot_zeroshot\\results.json",
+      "source_sha256": "cd4d4308a91dd1d2541aa44b9afeda2fcbb4aa2162328cbecf64d92c8838e4db",
+      "published_path": "evidence/localbench/latest_incomplete/original/gsm8k_cot_zeroshot.json",
+      "published_sha256": "e387abcca7fc9fdcec03b3bc92de20340f54f00e9f712b509e5059a60413c5f2"
+    },
+    {
+      "source_relative_path": "original\\ifeval\\results.json",
+      "source_sha256": "8cfbf3db410d80994c43775b7189e1e281e5b3753e2384feed5dd3713fe8abc4",
+      "published_path": "evidence/localbench/latest_incomplete/original/ifeval.json",
+      "published_sha256": "9b21663a9f77c9794caf2e4b9dc9fe9dc31c52f02cd053f903c39674db31c2ca"
+    },
+    {
+      "source_relative_path": "prism\\gsm8k_cot_zeroshot\\results.json",
+      "source_sha256": "fa94df353c259173ef56e943b369be19ca6b44744d9bfdc833709d56338ce824",
+      "published_path": "evidence/localbench/latest_incomplete/prism/gsm8k_cot_zeroshot.json",
+      "published_sha256": "41ad17cb1d8e2422d77eb5feec628085a79ae505a77a2be2f78a7a8b7b303850"
+    }
+  ]
+}

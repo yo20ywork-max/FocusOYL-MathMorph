@@ -1,0 +1,110 @@
+{
+  "v04_nonoverlap": {
+    "lifted_last_mild": {
+      "n": 156,
+      "baseline_correct": 110,
+      "candidate_correct": 113,
+      "wins": 11,
+      "losses": 8,
+      "two_sided_p": 0.6476058959960938,
+      "two_comparison_p": 1.0
+    },
+    "euclid_control": {
+      "n": 156,
+      "baseline_correct": 110,
+      "candidate_correct": 121,
+      "wins": 17,
+      "losses": 6,
+      "two_sided_p": 0.03468966484069824,
+      "two_comparison_p": 0.06937932968139648
+    }
+  },
+  "v04_second_development": {
+    "original": {
+      "n": 47,
+      "correct": 37,
+      "statuses": {
+        "NATURAL_STOP": 43,
+        "TOKEN_LIMIT": 4
+      }
+    },
+    "cubic_last128_full": {
+      "n": 47,
+      "correct": 33,
+      "statuses": {
+        "NATURAL_STOP": 40,
+        "TOKEN_LIMIT": 6,
+        "LOOP_GUARD_ABORT": 1
+      }
+    },
+    "cubic_last128_protected": {
+      "n": 47,
+      "correct": 30,
+      "statuses": {
+        "NATURAL_STOP": 38,
+        "TOKEN_LIMIT": 9
+      }
+    },
+    "euclid_last512_protected": {
+      "n": 47,
+      "correct": 36,
+      "statuses": {
+        "NATURAL_STOP": 42,
+        "TOKEN_LIMIT": 5
+      }
+    },
+    "euclid_last512_unprotected": {
+      "n": 47,
+      "correct": 36,
+      "statuses": {
+        "NATURAL_STOP": 46,
+        "TOKEN_LIMIT": 1
+      }
+    },
+    "euclid_last32_protected": {
+      "n": 47,
+      "correct": 24,
+      "statuses": {
+        "LOOP_GUARD_ABORT": 5,
+        "TOKEN_LIMIT": 6,
+        "NATURAL_STOP": 36
+      }
+    },
+    "cubic_last32_protected": {
+      "n": 47,
+      "correct": 24,
+      "statuses": {
+        "LOOP_GUARD_ABORT": 8,
+        "NATURAL_STOP": 35,
+        "TOKEN_LIMIT": 4
+      }
+    }
+  },
+  "incomplete_standard_task_snapshot": {
+    "original": {
+      "strict-match": {
+        "n": 1319,
+        "correct": 3.0,
+        "score": 0.002274450341167551
+      },
+      "flexible-extract": {
+        "n": 1319,
+        "correct": 929.0,
+        "score": 0.7043214556482184
+      }
+    },
+    "prism": {
+      "strict-match": {
+        "n": 1319,
+        "correct": 7.0,
+        "score": 0.00530705079605762
+      },
+      "flexible-extract": {
+        "n": 1319,
+        "correct": 959.0,
+        "score": 0.7270659590598939
+      }
+    }
+  },
+  "note": "Read-only recalculation, not new inference or a completed combined evaluation."
+}

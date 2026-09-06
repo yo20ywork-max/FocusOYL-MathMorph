@@ -1,0 +1,20 @@
+{
+  "declared_local_time": "2026-09-05T22:24:28+08:00",
+  "holdout_not_started_when_declared": true,
+  "candidate_selection_not_completed_when_declared": true,
+  "reason": "A label-blind prompt comparison found repeated procedural-code prompts shared with development.",
+  "excluded_ids": [
+    "mm04-holdout-code-1",
+    "mm04-holdout-code-5",
+    "mm04-holdout-code-9",
+    "mm04-holdout-code-13"
+  ],
+  "planned_raw_requests_per_arm": 160,
+  "nonoverlap_certificate_cases": 156,
+  "original_protocol_and_raw_scores_preserved": true,
+  "release_requires_nonoverlap_subset_pass": true,
+  "other_release_thresholds_unchanged": true,
+  "exclusion_uses_answers": false,
+  "exclusion_uses_model_outputs": false,
+  "shared_procedural_templates_still_exist": true
+}

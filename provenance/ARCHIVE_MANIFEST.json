@@ -1,0 +1,769 @@
+{
+  "created_utc": "2026-09-06T18:12:47.558196+00:00",
+  "files": [
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-A",
+      "source_name": "mathmorph.py",
+      "published_path": "archive/v0.1/mathmorph.py",
+      "source_sha256": "7aa6853d35e965f41ebdc0b8c46df81ac6e93cb3900fcd130f807a3e916e0993",
+      "published_sha256": "7aa6853d35e965f41ebdc0b8c46df81ac6e93cb3900fcd130f807a3e916e0993",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "mathmorph",
+      "source_name": "__init__.py",
+      "published_path": "archive/v0.1/src/mathmorph/__init__.py",
+      "source_sha256": "e368806d6606d59676dc7791e4b7d39cb7076aaf8b6c0c853cdd5f59af1a5a68",
+      "published_sha256": "e368806d6606d59676dc7791e4b7d39cb7076aaf8b6c0c853cdd5f59af1a5a68",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "mathmorph",
+      "source_name": "__main__.py",
+      "published_path": "archive/v0.1/src/mathmorph/__main__.py",
+      "source_sha256": "adbfac0468e33d455b1f64f5ab103785022a73c3e56e3861205ea1049aefaf8e",
+      "published_sha256": "adbfac0468e33d455b1f64f5ab103785022a73c3e56e3861205ea1049aefaf8e",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "mathmorph",
+      "source_name": "evaluate.py",
+      "published_path": "archive/v0.1/src/mathmorph/evaluate.py",
+      "source_sha256": "4c5a9f8ddf7198689356ed5cbc882c509ebdbe3e6dfc2bf169d6e0043884ecaf",
+      "published_sha256": "4c5a9f8ddf7198689356ed5cbc882c509ebdbe3e6dfc2bf169d6e0043884ecaf",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "mathmorph",
+      "source_name": "ggufio.py",
+      "published_path": "archive/v0.1/src/mathmorph/ggufio.py",
+      "source_sha256": "bb4c1a60d152ee78af97c005f4a99ca6e3869f9ccf8592aee58d860c5951b62c",
+      "published_sha256": "bb4c1a60d152ee78af97c005f4a99ca6e3869f9ccf8592aee58d860c5951b62c",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "mathmorph",
+      "source_name": "mathcore.py",
+      "published_path": "archive/v0.1/src/mathmorph/mathcore.py",
+      "source_sha256": "c4d4ae553dfe2182930e0afa6df4c821b2523179c812f91b913b2903b4975f14",
+      "published_sha256": "c4d4ae553dfe2182930e0afa6df4c821b2523179c812f91b913b2903b4975f14",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "mathmorph",
+      "source_name": "pipeline.py",
+      "published_path": "archive/v0.1/src/mathmorph/pipeline.py",
+      "source_sha256": "399e3c2009b60a668e99c526f738033a3d25091f4f0c9e9e54f0b47fc0c1baf7",
+      "published_sha256": "399e3c2009b60a668e99c526f738033a3d25091f4f0c9e9e54f0b47fc0c1baf7",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-A",
+      "source_name": "HANDOFF.json",
+      "published_path": "evidence/v0.1/HANDOFF.json",
+      "source_sha256": "4aa00cc9657396dc6fb3d36a1942da97b95d0a4b39e9963f8791da14d8c075bd",
+      "published_sha256": "ae166316ebae69d47bcef281232c04668e893be6552626369fc3908da70c6661",
+      "representation": "sanitized structured evidence"
+    },
+    {
+      "source_root": "minicpm5-gpep-001",
+      "source_name": "report.json",
+      "published_path": "evidence/v0.1/conversion/minicpm5-gpep-001.json",
+      "source_sha256": "7751b1f3ef9dbbff1bfb92f8c6f9d6b0bc91cd5caf4b124c218ed12653753e15",
+      "published_sha256": "0d1f8fd9c0b61f794cf85acc4bcd49529df3b1473262f953daf823ff74ac8085",
+      "representation": "sanitized structured evidence"
+    },
+    {
+      "source_root": "minimind3-q4-gpep-003",
+      "source_name": "report.json",
+      "published_path": "evidence/v0.1/conversion/minimind3-q4-gpep-003.json",
+      "source_sha256": "b52f2e7e5aaa138615dde7b20dc0894987ba36acb0b2da72e817c0c54c44034d",
+      "published_sha256": "593c2c3c2cdbaa2f081512951030b51ddbf564163ca4991efc657113eb1874a8",
+      "representation": "sanitized structured evidence"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-B",
+      "source_name": "bench_v2.py",
+      "published_path": "archive/v0.2/bench_v2.py",
+      "source_sha256": "f99102ce7c3cce9e25be595aa193b8ddb507ba5e54768c6afe1cec3190d64a78",
+      "published_sha256": "f99102ce7c3cce9e25be595aa193b8ddb507ba5e54768c6afe1cec3190d64a78",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-B",
+      "source_name": "convert_v2.py",
+      "published_path": "archive/v0.2/convert_v2.py",
+      "source_sha256": "2c313a83284de164d8344ff260b99da7de8a165aecf61c1c8179a590665c97c5",
+      "published_sha256": "2c313a83284de164d8344ff260b99da7de8a165aecf61c1c8179a590665c97c5",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-B",
+      "source_name": "prepare_suite.py",
+      "published_path": "archive/v0.2/prepare_suite.py",
+      "source_sha256": "83eb8ca37a16ee7cef8b4d8a36307dd7414c9d0f264659e1ce5aaf6df5386580",
+      "published_sha256": "83eb8ca37a16ee7cef8b4d8a36307dd7414c9d0f264659e1ce5aaf6df5386580",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-B",
+      "source_name": "spectral.py",
+      "published_path": "archive/v0.2/spectral.py",
+      "source_sha256": "b46e38e28e18f1b9e72cab9f4df55bcde6882343ef9691b7e75922f35aeae5bc",
+      "published_sha256": "b46e38e28e18f1b9e72cab9f4df55bcde6882343ef9691b7e75922f35aeae5bc",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-B",
+      "source_name": "test_v2.py",
+      "published_path": "archive/v0.2/test_v2.py",
+      "source_sha256": "52f76f091d2d379efc9046630e8a9c3deee8fc5fe77131f9bd77063f3fc59336",
+      "published_sha256": "52f76f091d2d379efc9046630e8a9c3deee8fc5fe77131f9bd77063f3fc59336",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-B",
+      "source_name": "confirm_arithmetic.py",
+      "published_path": "archive/v0.2/confirm_arithmetic.py",
+      "source_sha256": "052f8b3c154042ba9705c483130aae4a5f3e3b5ef135a8a4313f4930b5d36971",
+      "published_sha256": "052f8b3c154042ba9705c483130aae4a5f3e3b5ef135a8a4313f4930b5d36971",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "mathmorph",
+      "source_name": "__init__.py",
+      "published_path": "archive/v0.2/src/mathmorph/__init__.py",
+      "source_sha256": "e368806d6606d59676dc7791e4b7d39cb7076aaf8b6c0c853cdd5f59af1a5a68",
+      "published_sha256": "e368806d6606d59676dc7791e4b7d39cb7076aaf8b6c0c853cdd5f59af1a5a68",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "mathmorph",
+      "source_name": "__main__.py",
+      "published_path": "archive/v0.2/src/mathmorph/__main__.py",
+      "source_sha256": "adbfac0468e33d455b1f64f5ab103785022a73c3e56e3861205ea1049aefaf8e",
+      "published_sha256": "adbfac0468e33d455b1f64f5ab103785022a73c3e56e3861205ea1049aefaf8e",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "mathmorph",
+      "source_name": "evaluate.py",
+      "published_path": "archive/v0.2/src/mathmorph/evaluate.py",
+      "source_sha256": "4c5a9f8ddf7198689356ed5cbc882c509ebdbe3e6dfc2bf169d6e0043884ecaf",
+      "published_sha256": "4c5a9f8ddf7198689356ed5cbc882c509ebdbe3e6dfc2bf169d6e0043884ecaf",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "mathmorph",
+      "source_name": "ggufio.py",
+      "published_path": "archive/v0.2/src/mathmorph/ggufio.py",
+      "source_sha256": "bb4c1a60d152ee78af97c005f4a99ca6e3869f9ccf8592aee58d860c5951b62c",
+      "published_sha256": "bb4c1a60d152ee78af97c005f4a99ca6e3869f9ccf8592aee58d860c5951b62c",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "mathmorph",
+      "source_name": "mathcore.py",
+      "published_path": "archive/v0.2/src/mathmorph/mathcore.py",
+      "source_sha256": "c4d4ae553dfe2182930e0afa6df4c821b2523179c812f91b913b2903b4975f14",
+      "published_sha256": "c4d4ae553dfe2182930e0afa6df4c821b2523179c812f91b913b2903b4975f14",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "mathmorph",
+      "source_name": "pipeline.py",
+      "published_path": "archive/v0.2/src/mathmorph/pipeline.py",
+      "source_sha256": "399e3c2009b60a668e99c526f738033a3d25091f4f0c9e9e54f0b47fc0c1baf7",
+      "published_sha256": "399e3c2009b60a668e99c526f738033a3d25091f4f0c9e9e54f0b47fc0c1baf7",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-B",
+      "source_name": "EVIDENCE.json",
+      "published_path": "evidence/v0.2/EVIDENCE.json",
+      "source_sha256": "df4309ebe9bcdf941a69ae91dbaa5a6ba6da9ef5459748163f7852da858a5d77",
+      "published_sha256": "f7cb8b0fbe1537d7b74be6f17413225df2deb9f4ce033796adae58ea37c6aa4e",
+      "representation": "sanitized structured evidence"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-B",
+      "source_name": "CONFIRMATION_EVIDENCE.json",
+      "published_path": "evidence/v0.2/CONFIRMATION_EVIDENCE.json",
+      "source_sha256": "e4f6068bbeba21e1dc7597b43392fa3bd4022157cc7d3e4e9eab07486b67a02a",
+      "published_sha256": "1b32fd049a4e5131e91bbba753c95cd215b1efad6885b654b74c974cd5572e38",
+      "representation": "sanitized structured evidence"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-B",
+      "source_name": "FINAL_RELEASE_DECISION.json",
+      "published_path": "evidence/v0.2/FINAL_RELEASE_DECISION.json",
+      "source_sha256": "2d4b753cb1ae17fc73366cd5edba5e1853e86ba0085f68d323b939e793963223",
+      "published_sha256": "920f6d7d46ced7aada1ad6b5f7b0c048a59c850e081d2f128b84d402550423a8",
+      "representation": "sanitized structured evidence"
+    },
+    {
+      "source_root": "minicpm5-npsr",
+      "source_name": "report.json",
+      "published_path": "evidence/v0.2/conversion/minicpm5-npsr.json",
+      "source_sha256": "4f2bc11dcfc8feb40c43c6f8badc8dabed0cf138082b77bd7e99e026e2790d87",
+      "published_sha256": "32d3b7cc0e62b533ac3662d196e0bd34687214bacc4d6c7475adab60cf638ebd",
+      "representation": "sanitized structured evidence"
+    },
+    {
+      "source_root": "minimind3-npsr",
+      "source_name": "report.json",
+      "published_path": "evidence/v0.2/conversion/minimind3-npsr.json",
+      "source_sha256": "da33470fb45a25b72243a7b21a212d634ba0e6dca5ff1c376131e9ae018179bf",
+      "published_sha256": "691539f2c6cb388520267e95c9f364dc6bfd9e9307d073e2179a7cdd952b059e",
+      "representation": "sanitized structured evidence"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-C",
+      "source_name": "guarded.py",
+      "published_path": "archive/v0.3/guarded.py",
+      "source_sha256": "8ccef82a7b559ca51bf0ea38ca2e59179150e02bc6b7e5a4b7c60119aaf9d279",
+      "published_sha256": "8ccef82a7b559ca51bf0ea38ca2e59179150e02bc6b7e5a4b7c60119aaf9d279",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-C",
+      "source_name": "stability.py",
+      "published_path": "archive/v0.3/stability.py",
+      "source_sha256": "4c943a61300531cc71cbabae4203250fbb8505d57b6d71f8f7ddd8839e280e20",
+      "published_sha256": "4c943a61300531cc71cbabae4203250fbb8505d57b6d71f8f7ddd8839e280e20",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-C",
+      "source_name": "screen.py",
+      "published_path": "archive/v0.3/screen.py",
+      "source_sha256": "e6d6d592d86eaae60aeda4c4d246c9f078bc73de7e7b1964279a930cdd837097",
+      "published_sha256": "e6d6d592d86eaae60aeda4c4d246c9f078bc73de7e7b1964279a930cdd837097",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-C",
+      "source_name": "prepare_screen.py",
+      "published_path": "archive/v0.3/prepare_screen.py",
+      "source_sha256": "4b5360908edee37a02ecc0fb9a4c1ef480258bd735d597f3212ade8c3ead9b38",
+      "published_sha256": "4b5360908edee37a02ecc0fb9a4c1ef480258bd735d597f3212ade8c3ead9b38",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-C",
+      "source_name": "replay_guard.py",
+      "published_path": "archive/v0.3/replay_guard.py",
+      "source_sha256": "a1f5568e7eaee86c614255307ecd5425fa4c6f988bca349a4ece1465ed1c67bc",
+      "published_sha256": "b67dd1c48c72cbb0e7676bb5ba22eb1b7be4e651b0219df44e002a703d9eea38",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-C",
+      "source_name": "run_pipeline.py",
+      "published_path": "archive/v0.3/run_pipeline.py",
+      "source_sha256": "5f72e69099fe33c02ac0966f48066ffaafb5edb6c7a45430314a266d1d29c131",
+      "published_sha256": "5f72e69099fe33c02ac0966f48066ffaafb5edb6c7a45430314a266d1d29c131",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "mathmorph",
+      "source_name": "__init__.py",
+      "published_path": "archive/v0.3/src/mathmorph/__init__.py",
+      "source_sha256": "e368806d6606d59676dc7791e4b7d39cb7076aaf8b6c0c853cdd5f59af1a5a68",
+      "published_sha256": "e368806d6606d59676dc7791e4b7d39cb7076aaf8b6c0c853cdd5f59af1a5a68",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "mathmorph",
+      "source_name": "__main__.py",
+      "published_path": "archive/v0.3/src/mathmorph/__main__.py",
+      "source_sha256": "adbfac0468e33d455b1f64f5ab103785022a73c3e56e3861205ea1049aefaf8e",
+      "published_sha256": "adbfac0468e33d455b1f64f5ab103785022a73c3e56e3861205ea1049aefaf8e",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "mathmorph",
+      "source_name": "evaluate.py",
+      "published_path": "archive/v0.3/src/mathmorph/evaluate.py",
+      "source_sha256": "4c5a9f8ddf7198689356ed5cbc882c509ebdbe3e6dfc2bf169d6e0043884ecaf",
+      "published_sha256": "4c5a9f8ddf7198689356ed5cbc882c509ebdbe3e6dfc2bf169d6e0043884ecaf",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "mathmorph",
+      "source_name": "ggufio.py",
+      "published_path": "archive/v0.3/src/mathmorph/ggufio.py",
+      "source_sha256": "bb4c1a60d152ee78af97c005f4a99ca6e3869f9ccf8592aee58d860c5951b62c",
+      "published_sha256": "bb4c1a60d152ee78af97c005f4a99ca6e3869f9ccf8592aee58d860c5951b62c",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "mathmorph",
+      "source_name": "mathcore.py",
+      "published_path": "archive/v0.3/src/mathmorph/mathcore.py",
+      "source_sha256": "c4d4ae553dfe2182930e0afa6df4c821b2523179c812f91b913b2903b4975f14",
+      "published_sha256": "c4d4ae553dfe2182930e0afa6df4c821b2523179c812f91b913b2903b4975f14",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "mathmorph",
+      "source_name": "pipeline.py",
+      "published_path": "archive/v0.3/src/mathmorph/pipeline.py",
+      "source_sha256": "399e3c2009b60a668e99c526f738033a3d25091f4f0c9e9e54f0b47fc0c1baf7",
+      "published_sha256": "399e3c2009b60a668e99c526f738033a3d25091f4f0c9e9e54f0b47fc0c1baf7",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-C",
+      "source_name": "SCORE_MATRIX.json",
+      "published_path": "evidence/v0.3/SCORE_MATRIX.json",
+      "source_sha256": "6402f40d00f2239cd153d411a68c6064e4e97685f1d45f8634cc3a8bda873cb7",
+      "published_sha256": "92ed10fe05203e7b6b8c8539e08586369475a5ad29ab49087225a1ea01b5be10",
+      "representation": "sanitized structured evidence"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-C",
+      "source_name": "guard-replay.json",
+      "published_path": "evidence/v0.3/guard-replay.json",
+      "source_sha256": "ae0ca8a9e6cc5cb1dec678fdb16d4b37b5b7c90bc84abae0ce10b50c8e8e1c1a",
+      "published_sha256": "5aab0abca5bd27614b0a53c4a818ce6b1fbb0bf256a0b44a7964df6fde780d76",
+      "representation": "sanitized structured evidence"
+    },
+    {
+      "source_root": "minicpm5-local-row",
+      "source_name": "report.json",
+      "published_path": "evidence/v0.3/conversion/minicpm5-local-row.json",
+      "source_sha256": "28577d9172e569f64c2920304fcfaeff45119f8a7c15072e0d8f56fe07ddd827",
+      "published_sha256": "2ff09ce20ed49b80f112d1b5d81e240331a3115d2ceeda20cd273858c45f408c",
+      "representation": "sanitized structured evidence"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-D",
+      "source_name": "geometry.py",
+      "published_path": "archive/v0.4/geometry.py",
+      "source_sha256": "7098540cb204702659e5d24637d2223fbc7f4134ce619fbecf431bbe4f187c1c",
+      "published_sha256": "7098540cb204702659e5d24637d2223fbc7f4134ce619fbecf431bbe4f187c1c",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-D",
+      "source_name": "convert_geometry.py",
+      "published_path": "archive/v0.4/convert_geometry.py",
+      "source_sha256": "0b4505edd5e5b31967ab48f07e06196f319e3b789b8a04a9311e9c429131e347",
+      "published_sha256": "0b4505edd5e5b31967ab48f07e06196f319e3b789b8a04a9311e9c429131e347",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-D",
+      "source_name": "experiment.py",
+      "published_path": "archive/v0.4/experiment.py",
+      "source_sha256": "0b2c2c6d2e05f653bff865ca2a203b526603fbdc8675dc36cca59f82acf10e8f",
+      "published_sha256": "0b2c2c6d2e05f653bff865ca2a203b526603fbdc8675dc36cca59f82acf10e8f",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-D",
+      "source_name": "projection_sweep.py",
+      "published_path": "archive/v0.4/projection_sweep.py",
+      "source_sha256": "33a840f69e73c008df38120914a86ca865ba292c0b69be7a010bbfc15d1400fa",
+      "published_sha256": "3095694327df5ea334594a651dc964a4cdecd57f9ff7e4f39c7bdfa4303af250",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-D",
+      "source_name": "anchor_protection.py",
+      "published_path": "archive/v0.4/anchor_protection.py",
+      "source_sha256": "aa1a865e5f9e0c69cbdafb4e20ce525c34e17ff3c33faf9d1a4fc942bb209cdc",
+      "published_sha256": "aa1a865e5f9e0c69cbdafb4e20ce525c34e17ff3c33faf9d1a4fc942bb209cdc",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-D",
+      "source_name": "audit_certificate.py",
+      "published_path": "archive/v0.4/audit_certificate.py",
+      "source_sha256": "7e634603852540a40fe97d0bb8d17ba2a8337f58f5d5d774eacd7937d67dcee2",
+      "published_sha256": "7e634603852540a40fe97d0bb8d17ba2a8337f58f5d5d774eacd7937d67dcee2",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-D",
+      "source_name": "convert_protected.py",
+      "published_path": "archive/v0.4/convert_protected.py",
+      "source_sha256": "e1703a619d9564557b8e6eac9a0ed9304612f5f8d04e2a0d6b7e413558626224",
+      "published_sha256": "e1703a619d9564557b8e6eac9a0ed9304612f5f8d04e2a0d6b7e413558626224",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-D",
+      "source_name": "screen.py",
+      "published_path": "archive/v0.4/screen.py",
+      "source_sha256": "e6d6d592d86eaae60aeda4c4d246c9f078bc73de7e7b1964279a930cdd837097",
+      "published_sha256": "e6d6d592d86eaae60aeda4c4d246c9f078bc73de7e7b1964279a930cdd837097",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-D",
+      "source_name": "stability.py",
+      "published_path": "archive/v0.4/stability.py",
+      "source_sha256": "4c943a61300531cc71cbabae4203250fbb8505d57b6d71f8f7ddd8839e280e20",
+      "published_sha256": "4c943a61300531cc71cbabae4203250fbb8505d57b6d71f8f7ddd8839e280e20",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-D",
+      "source_name": "guarded.py",
+      "published_path": "archive/v0.4/guarded.py",
+      "source_sha256": "8ccef82a7b559ca51bf0ea38ca2e59179150e02bc6b7e5a4b7c60119aaf9d279",
+      "published_sha256": "8ccef82a7b559ca51bf0ea38ca2e59179150e02bc6b7e5a4b7c60119aaf9d279",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-D",
+      "source_name": "verify_ast.py",
+      "published_path": "archive/v0.4/verify_ast.py",
+      "source_sha256": "381a54656eb43ca5f3aca8a50f28d8ce72dbe29b803c27297886de2722b34a5b",
+      "published_sha256": "381a54656eb43ca5f3aca8a50f28d8ce72dbe29b803c27297886de2722b34a5b",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "mathmorph",
+      "source_name": "__init__.py",
+      "published_path": "archive/v0.4/src/mathmorph/__init__.py",
+      "source_sha256": "e368806d6606d59676dc7791e4b7d39cb7076aaf8b6c0c853cdd5f59af1a5a68",
+      "published_sha256": "e368806d6606d59676dc7791e4b7d39cb7076aaf8b6c0c853cdd5f59af1a5a68",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "mathmorph",
+      "source_name": "__main__.py",
+      "published_path": "archive/v0.4/src/mathmorph/__main__.py",
+      "source_sha256": "adbfac0468e33d455b1f64f5ab103785022a73c3e56e3861205ea1049aefaf8e",
+      "published_sha256": "adbfac0468e33d455b1f64f5ab103785022a73c3e56e3861205ea1049aefaf8e",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "mathmorph",
+      "source_name": "evaluate.py",
+      "published_path": "archive/v0.4/src/mathmorph/evaluate.py",
+      "source_sha256": "4c5a9f8ddf7198689356ed5cbc882c509ebdbe3e6dfc2bf169d6e0043884ecaf",
+      "published_sha256": "4c5a9f8ddf7198689356ed5cbc882c509ebdbe3e6dfc2bf169d6e0043884ecaf",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "mathmorph",
+      "source_name": "ggufio.py",
+      "published_path": "archive/v0.4/src/mathmorph/ggufio.py",
+      "source_sha256": "bb4c1a60d152ee78af97c005f4a99ca6e3869f9ccf8592aee58d860c5951b62c",
+      "published_sha256": "bb4c1a60d152ee78af97c005f4a99ca6e3869f9ccf8592aee58d860c5951b62c",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "mathmorph",
+      "source_name": "mathcore.py",
+      "published_path": "archive/v0.4/src/mathmorph/mathcore.py",
+      "source_sha256": "c4d4ae553dfe2182930e0afa6df4c821b2523179c812f91b913b2903b4975f14",
+      "published_sha256": "c4d4ae553dfe2182930e0afa6df4c821b2523179c812f91b913b2903b4975f14",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "mathmorph",
+      "source_name": "pipeline.py",
+      "published_path": "archive/v0.4/src/mathmorph/pipeline.py",
+      "source_sha256": "399e3c2009b60a668e99c526f738033a3d25091f4f0c9e9e54f0b47fc0c1baf7",
+      "published_sha256": "399e3c2009b60a668e99c526f738033a3d25091f4f0c9e9e54f0b47fc0c1baf7",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-D",
+      "source_name": "SCORE_EVIDENCE.json",
+      "published_path": "evidence/v0.4/SCORE_EVIDENCE.json",
+      "source_sha256": "e055f91b11b587a8e979210da3e7a32e8cfc4788045a22d210202de0b32bbbb6",
+      "published_sha256": "71502bb314114a8ca632b071784a6b55e84ab24ee382de2840cc048885d70bf8",
+      "representation": "sanitized structured evidence"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-D",
+      "source_name": "SWEEP_SCORE_EVIDENCE.json",
+      "published_path": "evidence/v0.4/SWEEP_SCORE_EVIDENCE.json",
+      "source_sha256": "478d4247d403bca49244b2c453b89f574f0ec61cb85283f4ebe9d36396cb7142",
+      "published_sha256": "d8f27d061f884be1caa78a1adc81a1e6324fe29f18215e56442b71881fae3549",
+      "representation": "sanitized structured evidence"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-D",
+      "source_name": "HOLDOUT_AUDIT_ADDENDUM.json",
+      "published_path": "evidence/v0.4/HOLDOUT_AUDIT_ADDENDUM.json",
+      "source_sha256": "3f8e4720f4114f724e7a22101fe182e92eb6360a731760b50b11f864c6dc2f2b",
+      "published_sha256": "9fc697ec2b763a9668d774dd65d3e5506d9fbd191d14f6211fa341441f4a27be",
+      "representation": "sanitized structured evidence"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-D",
+      "source_name": "PROMPT_DUPLICATE_AUDIT.json",
+      "published_path": "evidence/v0.4/PROMPT_DUPLICATE_AUDIT.json",
+      "source_sha256": "6cec2a9b079b94692e782eddc31dec17998a24ce91716da72893bd630620ab92",
+      "published_sha256": "7e0e07b4721ccbfb26058b647a9ea9500bf1423840faf6b89ece9bad29a39d33",
+      "representation": "sanitized structured evidence"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-D",
+      "source_name": "AUDITED_FINAL_DECISION.json",
+      "published_path": "evidence/v0.4/AUDITED_FINAL_DECISION.json",
+      "source_sha256": "159e68396e09e28279ffc319be378902d1d328bf0c80b6a33ae11cde3f1e34d5",
+      "published_sha256": "50e814931a526dd9a4c1a9aae4caaf797a33994a223c2ab4d46592f80f643fa2",
+      "representation": "sanitized structured evidence"
+    },
+    {
+      "source_root": "FocusOYL-MathMorph-20260905-D",
+      "source_name": "FINAL_BRIEF.json",
+      "published_path": "evidence/v0.4/FINAL_BRIEF.json",
+      "source_sha256": "11d65b3024749ba59255ad69f0c1197e5386960e8eb25e06b29e767cc3c14b95",
+      "published_sha256": "d511aa9501559a15bed0b68d7954c1c3a73ae8c4fdca3a48b00fcb409dfe16f2",
+      "representation": "sanitized structured evidence"
+    },
+    {
+      "source_root": "euclid_control",
+      "source_name": "report.json",
+      "published_path": "evidence/v0.4/conversion/study-euclid_control.json",
+      "source_sha256": "fe5f16636a12ea1c0a12544e76757c3990482c5d5f3a8fc954eee806d06ecd5b",
+      "published_sha256": "de92e6e10350e2a65d60b09c3091d35c0d806837f9520d72f096a08ba4c66a0c",
+      "representation": "sanitized structured evidence"
+    },
+    {
+      "source_root": "lifted_cross",
+      "source_name": "report.json",
+      "published_path": "evidence/v0.4/conversion/study-lifted_cross.json",
+      "source_sha256": "e4d7866fb0cb3c3f4cb78d351ba1caf8fd9e1f53e2ad894f0ac771320b950e53",
+      "published_sha256": "874c6dd09ac67f691ccc0e3feeb1dcb6e4a8b5d68c0ae7421b7188f01b6b7495",
+      "representation": "sanitized structured evidence"
+    },
+    {
+      "source_root": "lifted_last_mild",
+      "source_name": "report.json",
+      "published_path": "evidence/v0.4/conversion/study-lifted_last_mild.json",
+      "source_sha256": "566cad27d2ec1bf4213e99377a65bfc5a47430be78c483a319620b80f5bcbfce",
+      "published_sha256": "46fea0d6217e412261eba550f62c120e2c9e9bdd71009eb3e8a502cd2b7a72ce",
+      "representation": "sanitized structured evidence"
+    },
+    {
+      "source_root": "lifted_last_strong",
+      "source_name": "report.json",
+      "published_path": "evidence/v0.4/conversion/study-lifted_last_strong.json",
+      "source_sha256": "2a31ab8cbfbca54673196b43f16148196c18d64453d09e4067dcbbaa74170d73",
+      "published_sha256": "9edaa268c676335490a060e239a851f9d117bc27124aee1ad7dda39b7f5ec3ef",
+      "representation": "sanitized structured evidence"
+    },
+    {
+      "source_root": "cubic_last128_full",
+      "source_name": "report.json",
+      "published_path": "evidence/v0.4/conversion/sweep-cubic_last128_full.json",
+      "source_sha256": "29ff5b1aaa76b0ed3dc3b598f09d98650ab80d6ceba66509fe1d7ab4f90179f5",
+      "published_sha256": "635d4f4410e12d964fa070720d85e99864e229868911a3fd2e378c400df8ef97",
+      "representation": "sanitized structured evidence"
+    },
+    {
+      "source_root": "cubic_last128_protected",
+      "source_name": "report.json",
+      "published_path": "evidence/v0.4/conversion/sweep-cubic_last128_protected.json",
+      "source_sha256": "82733d1a4d36a9b66141a8a313f3c9e839c0e46a33c878cfedd32ffb043668ba",
+      "published_sha256": "1c3b01be85347d01a6f0fa94f2c2f3c9729e4e0b348c5e0ef0674e589abce5c0",
+      "representation": "sanitized structured evidence"
+    },
+    {
+      "source_root": "cubic_last32_protected",
+      "source_name": "report.json",
+      "published_path": "evidence/v0.4/conversion/sweep-cubic_last32_protected.json",
+      "source_sha256": "b049114c143d0698230f299704a3676b699cfa8ca018667067e318a73e15ec5f",
+      "published_sha256": "0e6135d385a72265420f0197b885d588373c269c9aaed4bdff2adc06697d2458",
+      "representation": "sanitized structured evidence"
+    },
+    {
+      "source_root": "euclid_last32_protected",
+      "source_name": "report.json",
+      "published_path": "evidence/v0.4/conversion/sweep-euclid_last32_protected.json",
+      "source_sha256": "10185c0f1a1899a8f88bb196f6d72eb740851f499ea1104dfc4ea67828ada522",
+      "published_sha256": "3f75edec6c80410bf393c40403d41f0bfb8690fdcb44cb3e0fee3a697bcabcbd",
+      "representation": "sanitized structured evidence"
+    },
+    {
+      "source_root": "euclid_last512_protected",
+      "source_name": "report.json",
+      "published_path": "evidence/v0.4/conversion/sweep-euclid_last512_protected.json",
+      "source_sha256": "adc7fb3d0d3254a7b617be90bc7b5ae2d3e5e9ed716a91bca2a5b3b79dcebde6",
+      "published_sha256": "907ff3621b76262ab101ce4cd9cce08f43a6bebc2d3e7cb6d0ad29335873c233",
+      "representation": "sanitized structured evidence"
+    },
+    {
+      "source_root": "euclid_last512_unprotected",
+      "source_name": "report.json",
+      "published_path": "evidence/v0.4/conversion/sweep-euclid_last512_unprotected.json",
+      "source_sha256": "243796ee3c704d3ecfc6ba279f72c7ebbc64c0ab23ee3b8a2205e1cb012161f0",
+      "published_sha256": "e23ebd71bad0825686ce62f4d327de42fffa1fe4a81e6d983b4d09edde645be9",
+      "representation": "sanitized structured evidence"
+    },
+    {
+      "source_root": "FocusOYL-Think3Way-20260905",
+      "source_name": "think3_compare.py",
+      "published_path": "benchmarks/think_modes/think3_compare.py",
+      "source_sha256": "a8cb8db8c81ec02308fbec4929537f8026fe28445a0c5659a56c492698a890f6",
+      "published_sha256": "a8cb8db8c81ec02308fbec4929537f8026fe28445a0c5659a56c492698a890f6",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "FocusOYL-Think3Way-20260905",
+      "source_name": "summary.json",
+      "published_path": "evidence/think_modes/summary.json",
+      "source_sha256": "e7c257c4323b1437072ece691431d4092752de94cab3fdd87a7e304cb24969ce",
+      "published_sha256": "81fd5f13b5ba511464ea63973b0f6a226b350c8a6a3d657a8055fc673d34f61d",
+      "representation": "sanitized structured evidence"
+    },
+    {
+      "source_root": "FocusOYL-Think3Way-20260905",
+      "source_name": "protocol.json",
+      "published_path": "evidence/think_modes/protocol.json",
+      "source_sha256": "4781f61e82a90c38d56f59642062f597aee8eee8e067fbb63cb4ea1d0f3ef82d",
+      "published_sha256": "28d6ae2776bf4597b44857dee20442b1bdd7d5a27be63ac3ae364102ff7f6a3c",
+      "representation": "sanitized structured evidence"
+    },
+    {
+      "source_root": "pause-audit-20260905-184617",
+      "source_name": "AUDIT_SUMMARY.json",
+      "published_path": "evidence/unlimited/AUDIT_SUMMARY.json",
+      "source_sha256": "8edc1d4601026e4b1b22b611635515319ec65d114c9d62eefc0dd14bc51b44c5",
+      "published_sha256": "87d3d3fd9e187a1b48115fc20f77a2f882f63b1427408097d840f3d9227e906c",
+      "representation": "sanitized structured evidence"
+    },
+    {
+      "source_root": "FocusOYL-Prism-LocalBench-v1",
+      "source_name": "start.py",
+      "published_path": "benchmarks/localbench/start.py",
+      "source_sha256": "538cda6f62b3e18ccf3a0bf7d51ed37883ca33fe8ca516b2aaf7010f68f3852b",
+      "published_sha256": "538cda6f62b3e18ccf3a0bf7d51ed37883ca33fe8ca516b2aaf7010f68f3852b",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "FocusOYL-Prism-LocalBench-v1",
+      "source_name": "run_benchmark.py",
+      "published_path": "benchmarks/localbench/run_benchmark.py",
+      "source_sha256": "9ace7ec803c8d6cf3c89b68d90f256559bcbfe6d1b434d091312c67ca1e6ee10",
+      "published_sha256": "9ace7ec803c8d6cf3c89b68d90f256559bcbfe6d1b434d091312c67ca1e6ee10",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "FocusOYL-Prism-LocalBench-v1",
+      "source_name": "benchlib.py",
+      "published_path": "benchmarks/localbench/benchlib.py",
+      "source_sha256": "9e24a49f71d6e05138acd4df9ffc38c8f4ef529ac7e54bfc467b64e310efd93b",
+      "published_sha256": "9e24a49f71d6e05138acd4df9ffc38c8f4ef529ac7e54bfc467b64e310efd93b",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "FocusOYL-Prism-LocalBench-v1",
+      "source_name": "selftest.py",
+      "published_path": "benchmarks/localbench/selftest.py",
+      "source_sha256": "cf738d0cd5b3c5f9e81594d477fac26c6ef8b2c1c0971b778516af8eb0e047b6",
+      "published_sha256": "cf738d0cd5b3c5f9e81594d477fac26c6ef8b2c1c0971b778516af8eb0e047b6",
+      "representation": "source with local home path generalized"
+    },
+    {
+      "source_root": "FocusOYL-Prism-LocalBench-v1",
+      "source_name": "SETUP_VALIDATION.json",
+      "published_path": "evidence/localbench/SETUP_VALIDATION.json",
+      "source_sha256": "d349c31bd8ee0562557697c0672c10e74348355469fc41ec90c7f43ccf8e8412",
+      "published_sha256": "4df27f734d8fdd36097f2af56202f8904f45ec99a4da836ea03537516020cbcc",
+      "representation": "sanitized structured evidence"
+    },
+    {
+      "source_root": "full-think-on-4096",
+      "source_name": "comparison.json",
+      "published_path": "evidence/localbench/latest_incomplete/comparison.json",
+      "source_sha256": "d9a47f91e94dcb0805d13d61b9def62c511a3888c29888daa9cb4fe883dcf209",
+      "published_sha256": "0000749b793c97a23893187ec08e06917671d096e1436b531c0105cdc1704475",
+      "representation": "sanitized structured evidence"
+    },
+    {
+      "source_root": "full-think-on-4096",
+      "source_name": "protocol.json",
+      "published_path": "evidence/localbench/latest_incomplete/protocol.json",
+      "source_sha256": "71dcc5606e642bfa9f5eaa67b8a739f2e7e54f1c7b979c70ba7050c0c48dd257",
+      "published_sha256": "d5adf0dbf002b54100b8603eb5abc69d88ed734ecff0d2c31edfdc7ed3577ecd",
+      "representation": "sanitized structured evidence"
+    },
+    {
+      "source_root": "e34c6a8d7142bf369a046636317b429478258b45",
+      "source_name": "LICENSE",
+      "published_path": "LICENSE",
+      "source_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "published_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "representation": "source with local home path generalized"
+    }
+  ],
+  "unavailable": [
+    {
+      "source_name": "FINAL_MANIFEST.json",
+      "reason": "not present in available research folder"
+    },
+    {
+      "source_name": "RUNTIME_VALIDATION.json",
+      "reason": "not present in available research folder"
+    },
+    {
+      "source_name": "FINAL_DELIVERY.json",
+      "reason": "not present in available research folder"
+    },
+    {
+      "source_name": "requirements.txt",
+      "reason": "not present in available research folder"
+    },
+    {
+      "source_name": "dataset-preflight.json",
+      "reason": "not present in available research folder"
+    },
+    {
+      "source_name": "run_state.json",
+      "reason": "not present in available research folder"
+    }
+  ],
+  "excluded": [
+    "weights",
+    "credentials",
+    "raw prompts and responses",
+    "server logs",
+    "virtual environments",
+    "shared caches",
+    "publishing scripts"
+  ],
+  "supplementary_evaluation_snapshot_records": [
+    {
+      "source_relative_path": "comparison.json",
+      "source_sha256": "d9a47f91e94dcb0805d13d61b9def62c511a3888c29888daa9cb4fe883dcf209",
+      "published_path": "evidence/localbench/latest_incomplete/comparison.json",
+      "published_sha256": "0000749b793c97a23893187ec08e06917671d096e1436b531c0105cdc1704475"
+    },
+    {
+      "source_relative_path": "protocol.json",
+      "source_sha256": "71dcc5606e642bfa9f5eaa67b8a739f2e7e54f1c7b979c70ba7050c0c48dd257",
+      "published_path": "evidence/localbench/latest_incomplete/protocol.json",
+      "published_sha256": "d5adf0dbf002b54100b8603eb5abc69d88ed734ecff0d2c31edfdc7ed3577ecd"
+    },
+    {
+      "source_relative_path": "original\\gsm8k_cot_zeroshot\\results.json",
+      "source_sha256": "cd4d4308a91dd1d2541aa44b9afeda2fcbb4aa2162328cbecf64d92c8838e4db",
+      "published_path": "evidence/localbench/latest_incomplete/original/gsm8k_cot_zeroshot.json",
+      "published_sha256": "e387abcca7fc9fdcec03b3bc92de20340f54f00e9f712b509e5059a60413c5f2"
+    },
+    {
+      "source_relative_path": "original\\ifeval\\results.json",
+      "source_sha256": "8cfbf3db410d80994c43775b7189e1e281e5b3753e2384feed5dd3713fe8abc4",
+      "published_path": "evidence/localbench/latest_incomplete/original/ifeval.json",
+      "published_sha256": "9b21663a9f77c9794caf2e4b9dc9fe9dc31c52f02cd053f903c39674db31c2ca"
+    },
+    {
+      "source_relative_path": "prism\\gsm8k_cot_zeroshot\\results.json",
+      "source_sha256": "fa94df353c259173ef56e943b369be19ca6b44744d9bfdc833709d56338ce824",
+      "published_path": "evidence/localbench/latest_incomplete/prism/gsm8k_cot_zeroshot.json",
+      "published_sha256": "41ad17cb1d8e2422d77eb5feec628085a79ae505a77a2be2f78a7a8b7b303850"
+    }
+  ],
+  "snapshot_note": "Saved standard-task metrics verified by arm identity and per-item filter scores; combined run remains incomplete."
+}

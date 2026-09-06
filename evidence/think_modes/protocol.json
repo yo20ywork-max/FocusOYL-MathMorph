@@ -1,0 +1,65 @@
+{
+  "frozen_utc": "2026-09-05T06:50:09.363054+00:00",
+  "n": 456,
+  "arms": [
+    [
+      "original_think_on",
+      "original",
+      true
+    ],
+    [
+      "sharpen_think_on",
+      "sharpen",
+      true
+    ],
+    [
+      "sharpen_think_off",
+      "sharpen",
+      false
+    ]
+  ],
+  "models": {
+    "original": {
+      "path": "C:\\Users\\YOUR_USER\\Documents\\Codex\\2026-08-30\\new-chat-2\\outputs\\focusoyl-tools\\models\\MiniCPM5-1B-F16.gguf",
+      "sha256": "68c40b08b1242754a107b9510af89aa75b10c75843ca7844643c70956b7f1e3d"
+    },
+    "sharpen": {
+      "path": "C:\\Users\\YOUR_USER\\Documents\\FocusOYL-MathMorph-20260905-B\\runs\\minicpm5-npsr\\sharpen.gguf",
+      "sha256": "5a9084ab6ce3ac20126cd6edbcbe11ffb42b220a292d1e6d266cf377eb064f72"
+    }
+  },
+  "server": "C:\\Users\\YOUR_USER\\llama\\runtime\\llama-server.exe",
+  "server_sha256": "20f59bc7ec53480e705b5f6611bf2d4c599317a3ada4339c95c198b0a1842163",
+  "code_sha256": "a8cb8db8c81ec02308fbec4929537f8026fe28445a0c5659a56c492698a890f6",
+  "suite_sha256": "d746c92ffdc33969b46b104807302f2171fb2516915ca827bbb9211a843b3df7",
+  "source_suites": {
+    "discovery": {
+      "path": "C:\\Users\\YOUR_USER\\Documents\\FocusOYL-MathMorph-20260905-B\\evaluation-data\\suite.json",
+      "sha256": "8b183f57662f02e74fd475dfa192e2f6717b5f2b97a55e6bbb5c68e56650493e"
+    },
+    "confirmation": {
+      "path": "C:\\Users\\YOUR_USER\\Documents\\FocusOYL-MathMorph-20260905-B\\confirmation\\suite.json",
+      "sha256": "6463d4a155ecf7aeb5d9294fe7db50b3f55bc8529aab741178d6080d7088a917"
+    }
+  },
+  "max_tokens_including_reasoning": 2048,
+  "temperature": 0,
+  "top_k": 0,
+  "top_p": 1.0,
+  "min_p": 0.0,
+  "seed": 20260905,
+  "parallel_requests": 4,
+  "context_per_request": 4096,
+  "gpu_layers": 99,
+  "threads": 2,
+  "primary": "mixed-264/completed_correct",
+  "thinking_control": "server --reasoning on/off plus per-request enable_thinking; template and reasoning-field probes",
+  "reasoning_budget": -1,
+  "no_forced_early_thinking_end": true,
+  "cache_prompt": false,
+  "scoring": "final content only, previous MCQ and confirmation integer extraction; no gold used in parser",
+  "official_sampling_preset": false,
+  "latency_caveat": "4 concurrent requests; another user HF evaluation was already running; not an isolated speed benchmark",
+  "no_training_or_weight_modification": true,
+  "rerun_of_previous_questions": true
+}

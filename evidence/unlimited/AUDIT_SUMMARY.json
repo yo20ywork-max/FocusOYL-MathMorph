@@ -1,0 +1,120 @@
+{
+  "active_full_traces_saved": 8,
+  "active_trace_status_note": "Raw timeout errors were induced by suspension/log flush; user interruption, not model failure. Full traces retained, inference never resumed.",
+  "audit_root": "C:\\Users\\YOUR_USER\\Documents\\FocusOYL-UnlimitedThink-20260905-B\\pause-audit-20260905-184617",
+  "audit_time": "2026-09-05T18:52:04.937272+08:00",
+  "caveats": [
+    "12-word repetition is lexical redundancy, not a direct measure of semantic value.",
+    "Manual examples are diagnostic selections, not a random sample for prevalence estimates.",
+    "This run used temperature=0, an 8192-token sliding context, eight concurrent requests and a 900-second observation guard; context shift can affect long trajectories.",
+    "Some long normal completions were useful; no claim that all thinking is waste or that unbounded compute can never help.",
+    "Exact in-memory continuation is unavailable after the requested KV cache release; preserved questions and outputs support a future explicit rerun."
+  ],
+  "censored_lexical_findings": {
+    "empty_final": 37,
+    "median_reasoning_chars": 85161,
+    "median_tail_repeat12_rate": 0.7460148777895855,
+    "n": 37,
+    "normalized_sentence_repeats_ge10": 37,
+    "tail_repeat12_ge_50_percent": 36,
+    "tail_repeat12_ge_80_percent": 15
+  },
+  "cleanup": {
+    "completed_at": "2026-09-05T18:51:03.410580+08:00",
+    "disk_cache_bytes_deleted": 29414,
+    "disk_cache_files_deleted": 1,
+    "disk_cache_kind": "Python .pyc only in explicitly scoped test roots",
+    "gpu_allocations_before": [
+      {
+        "CookedValue": 3471695872,
+        "InstanceName": "pid_28604_luid_0x00000000_0x00014d26_phys_0",
+        "Path": "\\\\dt\\gpu process memory(pid_28604_luid_0x00000000_0x00014d26_phys_0)\\dedicated usage"
+      },
+      {
+        "CookedValue": 27115520,
+        "InstanceName": "pid_28604_luid_0x00000000_0x00014d26_phys_0",
+        "Path": "\\\\dt\\gpu process memory(pid_28604_luid_0x00000000_0x00014d26_phys_0)\\shared usage"
+      }
+    ],
+    "gpu_target_entries_after": 0,
+    "logs_suites_and_models_preserved": true,
+    "model_hashes": {
+      "original_think_on": {
+        "matches_protocol": true,
+        "sha256": "68c40b08b1242754a107b9510af89aa75b10c75843ca7844643c70956b7f1e3d"
+      },
+      "sharpen_think_on": {
+        "matches_protocol": true,
+        "sha256": "5a9084ab6ce3ac20126cd6edbcbe11ffb42b220a292d1e6d266cf377eb064f72"
+      }
+    },
+    "no_automatic_resume": true,
+    "no_disk_prompt_cache_found_in_scoped_roots": true,
+    "not_secure_memory_erasure": true,
+    "remaining_target_pids": [],
+    "terminated_pids": [
+      17692,
+      31524,
+      28604
+    ]
+  },
+  "frozen_sharpen": {
+    "active_at_pause": 8,
+    "censored_reasoning_chars": 3061968,
+    "censored_share_of_recorded_reasoning_chars": 0.881982990397173,
+    "completed_correct": 89,
+    "natural_stops": 122,
+    "not_started": 289,
+    "observation_censored": 37,
+    "reasoning_chars_recorded": 3471686,
+    "recorded": 159
+  },
+  "lexical_method": "12-word-window repetition and repeated normalized sentences; lexical redundancy only, not semantic correctness; head/tail each up to 6000 characters",
+  "manual_diagnostic_examples": [
+    {
+      "category": "correct_option_repeated_without_final_answer",
+      "exact_normalized_repetitions": 410,
+      "gold": "A",
+      "gold_answer": "1.5 times",
+      "id": "ARC-Challenge:Mercury_LBS10933",
+      "normalized_sentence": "i'll write final a and that's it",
+      "reasoning_chars": 38130
+    },
+    {
+      "category": "correct_option_repeated_without_final_answer",
+      "exact_normalized_repetitions": 777,
+      "gold": "A",
+      "gold_answer": "the Calvin cycle",
+      "id": "ARC-Easy:Mercury_7056315",
+      "normalized_sentence": "i'll write final a and then the letter",
+      "reasoning_chars": 75615
+    },
+    {
+      "category": "unsupported_rejection_of_correct_carbon_answer",
+      "gold": "B",
+      "gold_answer": "carbon",
+      "id": "ARC-Easy:Mercury_7264040",
+      "manual_observation": "Saved tail repeatedly says amino acids contain carbon, then treats hemoglobin containing iron as evidence that it lacks carbon. This is an invalid inference, not additional evidence."
+    },
+    {
+      "category": "repeated_question_with_no_new_inference",
+      "gold": "B",
+      "gold_answer": "asexual reproduction",
+      "id": "ARC-Easy:Mercury_406546",
+      "manual_observation": "Saved tail repeats the same question and A/B/C/D framing, with empty final content."
+    }
+  ],
+  "natural_stop_lexical_control": {
+    "median_tail_repeat12_rate": 0.01947453954496209,
+    "n": 122,
+    "tail_repeat12_ge_50_percent": 0
+  },
+  "pause_time": "2026-09-05T18:46:22.010947+08:00",
+  "scope": "Current unlimited-think run; unfinished and non-random completion order. Not a final model accuracy comparison.",
+  "source_hashes": {
+    "original_think_on/responses.jsonl": "566903a3680e053962501826f902a3cc62b53e55beb075b2e1578eaec85c62b1",
+    "protocol.json": "3a8c787bd7476dbe9c0bc02fd1cf435c42818ec8dfaf033ff57c7b0d75905286",
+    "sharpen_think_on/responses.jsonl": "f443eb51c1c343d25eee68508cbb3bab7da16e1b0b8cb82a4c9673de7461ee55",
+    "suite.json": "d746c92ffdc33969b46b104807302f2171fb2516915ca827bbb9211a843b3df7"
+  }
+}

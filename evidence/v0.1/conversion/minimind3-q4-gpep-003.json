@@ -1,0 +1,114 @@
+{
+  "schema": 1,
+  "tool": "FocusOYL MathMorph",
+  "version": "0.1.0",
+  "started_utc": "2026-09-05T05:35:42.473726+00:00",
+  "input": {
+    "path": "C:\\Users\\YOUR_USER\\Documents\\Codex\\2026-08-30\\new-chat\\work\\validation-b10686\\minimind-3.q4_0.gguf",
+    "size_bytes": 37508320,
+    "architecture": "qwen3",
+    "model_name": "Minimind 3",
+    "gguf_version": 3,
+    "tensor_count": 90,
+    "dense_gated_blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "architecture_adapter_available": true,
+    "mutation_scope": "down projection only; gate/up/norm read-only",
+    "quant_types": [
+      "F32",
+      "Q4_0",
+      "Q6_K"
+    ]
+  },
+  "source_sha256": "6456fd1ec84421470554799ee8086c25f5ab140af0b785ca1ef4358355affba0",
+  "config": {
+    "rank": 64,
+    "strength": 0.05,
+    "max_change": 0.02,
+    "quadrature": 32,
+    "power_iters": 2,
+    "oversampling": 8,
+    "seed": 20260905
+  },
+  "layers": [
+    5
+  ],
+  "operator": "gpep",
+  "training": false,
+  "external_data": false,
+  "teacher": false,
+  "parameters_added": 0,
+  "capability_status": "UNTESTED",
+  "release_status": "CANDIDATE_UNVERIFIED",
+  "numpy": "1.26.4",
+  "python": "3.12.6",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "threads": 4,
+  "patches": [
+    {
+      "operator": "gpep",
+      "configuration": {
+        "rank": 64,
+        "strength": 0.05,
+        "max_change": 0.02,
+        "quadrature": 32,
+        "power_iters": 2,
+        "oversampling": 8,
+        "seed": 20260905
+      },
+      "research_status": "UNVALIDATED_CAPABILITY_HYPOTHESIS",
+      "eta": 0.02201576677848472,
+      "ideal_relative_change": 0.020000000315000224,
+      "effective_rank": 64,
+      "proxy_moment_min": 0.04697426917959178,
+      "proxy_moment_max": 0.1938870206870276,
+      "assumption": "isotropic_Gaussian_before_learned_norm; diagonal_channel_moment_proxy",
+      "orthogonality_error": 8.219816327803753e-07,
+      "projected_component_relative_change": 7.420135648918911e-09,
+      "unselected_component_multiplier": 0.9779842332215153,
+      "name": "blk.5.ffn_down.weight",
+      "shape": [
+        768,
+        2432
+      ],
+      "type": "Q4_0",
+      "original_tensor_sha256": "eb4d7b3723fe081e7d8fff98d6e9d6c040dbab362290a7a6015a1215fb8c4c3a",
+      "candidate_tensor_sha256": "2e0e3d2c98917b492ad7d4e3c1e2f80204e9b427dec814b6af073c5343551f5e",
+      "realized_relative_change": 0.01812044937278937,
+      "roundtrip_relative_change": 0.0,
+      "effect_relative_to_control": 0.01812044937278937,
+      "encoding_direction_cosine": 0.895326645115512,
+      "changed_weight_fraction": 0.8885128623560855,
+      "candidate_differs_from_control": true
+    }
+  ],
+  "quantizer": "C:\\Users\\YOUR_USER\\llama\\runtime\\llama-quantize.exe",
+  "quantizer_sha256": "edb60e5967062b8c8335b94fa83f4fba8917aadc8490470b4bd26c37f3c74a51",
+  "candidate.gguf": {
+    "path": "C:\\Users\\YOUR_USER\\Documents\\FocusOYL-MathMorph-20260905-A\\runs\\minimind3-q4-gpep-003\\candidate.gguf",
+    "sha256": "d4c34a37b9238b69c0ded4fe30cd6bb5d5b357398296b2b5ae971d21346b7269",
+    "unaltered_bytes_verified": 36457696,
+    "file_size_unchanged": true,
+    "metadata_byte_identical": true,
+    "tensor_layout_unchanged": true
+  },
+  "roundtrip-control.gguf": {
+    "path": "C:\\Users\\YOUR_USER\\Documents\\FocusOYL-MathMorph-20260905-A\\runs\\minimind3-q4-gpep-003\\roundtrip-control.gguf",
+    "sha256": "6456fd1ec84421470554799ee8086c25f5ab140af0b785ca1ef4358355affba0",
+    "unaltered_bytes_verified": 36457696,
+    "file_size_unchanged": true,
+    "metadata_byte_identical": true,
+    "tensor_layout_unchanged": true
+  },
+  "source_unchanged": true,
+  "elapsed_seconds": 2.2189999999827705,
+  "structural_status": "PASS"
+}

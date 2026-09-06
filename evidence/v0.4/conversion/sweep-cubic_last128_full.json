@@ -1,0 +1,63 @@
+{
+  "recipe": {
+    "label": "cubic_last128_full",
+    "layer": 23,
+    "rank": 128,
+    "alpha": 1.0,
+    "geometry": true,
+    "protect": false
+  },
+  "source_sha256": "68c40b08b1242754a107b9510af89aa75b10c75843ca7844643c70956b7f1e3d",
+  "candidate_sha256": "3d36b954776c003c3d6f1d275011a859e90dd314a7b30af32be9064fa80e6533",
+  "candidate_path": "C:\\Users\\YOUR_USER\\Documents\\FocusOYL-MathMorph-20260905-D\\sweep\\models\\cubic_last128_full\\candidate.gguf",
+  "bytes": 2166551936,
+  "tensor": "blk.23.ffn_down.weight",
+  "geometry": {
+    "kernel": {
+      "quadrature_nodes": 48,
+      "coefficient_orders": [
+        0,
+        1,
+        2
+      ],
+      "feature_chaoses": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "kernel_scale_removed": 0.8451771140098572,
+      "assumption": "isotropic Gaussian after absorbing learned norm; cubic SiLU surrogate",
+      "true_activation_covariance": false
+    },
+    "reader_type": "4096_uniform_vocabulary_rows",
+    "metric": {
+      "ridge": 0.25,
+      "min_eigenvalue": 0.25797592859629437,
+      "max_eigenvalue": 362.98411135909737
+    },
+    "projection": {
+      "rank": 128,
+      "proxy_energy_retained": 0.551373817006078,
+      "covariance_eigen_min": 0.23572997636738935,
+      "covariance_eigen_max": 3467.908686218711,
+      "tail_relative_norm": 0.9062144160270691
+    }
+  },
+  "alpha": 1.0,
+  "readout_protection": null,
+  "encoded_protected_leakage_ratio": null,
+  "encoded_relative_change": 0.9062129259109497,
+  "encoded_norm_ratio": 0.44395196437835693,
+  "rank_claim_applies_before_encoding_only": true,
+  "byte_audit": {
+    "unaltered_bytes_verified": 2152396160,
+    "file_size_unchanged": true,
+    "metadata_byte_identical": true,
+    "tensor_layout_unchanged": true
+  },
+  "training": false,
+  "answers_in_weight_computation": false,
+  "added_parameters": 0,
+  "release": "UNVERIFIED"
+}

@@ -1,0 +1,32 @@
+{
+  "original/gsm8k_cot_zeroshot": {
+    "source_sha256": "d7af263d1db8f58fcc60cbe32621029c1249ce585fcee962bb0e6304e1b64cc5",
+    "metrics": {
+      "requests": 1319,
+      "completion_tokens": 2379397,
+      "length_stops": 258,
+      "natural_stops": 1061,
+      "think_nonempty": 1319
+    }
+  },
+  "original/ifeval": {
+    "source_sha256": "be4e2e99983e3f8fae90055c2674aea29ed8a50329e1da4ebb11fb882287228c",
+    "metrics": {
+      "requests": 541,
+      "completion_tokens": 917527,
+      "length_stops": 84,
+      "natural_stops": 457,
+      "think_nonempty": 541
+    }
+  },
+  "prism/gsm8k_cot_zeroshot": {
+    "source_sha256": "42dac806b42fcd34e867493ed0326b8e699cc6b9b83283880f746edc19756e5a",
+    "metrics": {
+      "requests": 1319,
+      "completion_tokens": 2178602,
+      "length_stops": 212,
+      "natural_stops": 1107,
+      "think_nonempty": 1319
+    }
+  }
+}

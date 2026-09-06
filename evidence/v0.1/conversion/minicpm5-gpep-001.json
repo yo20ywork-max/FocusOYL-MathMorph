@@ -1,0 +1,129 @@
+{
+  "schema": 1,
+  "tool": "FocusOYL MathMorph",
+  "version": "0.1.0",
+  "started_utc": "2026-09-05T05:29:20.793132+00:00",
+  "input": {
+    "path": "C:\\Users\\YOUR_USER\\Documents\\Codex\\2026-08-30\\new-chat-2\\outputs\\focusoyl-tools\\models\\MiniCPM5-1B-F16.gguf",
+    "size_bytes": 2166551936,
+    "architecture": "llama",
+    "model_name": "MiniCPM5 1B",
+    "gguf_version": 3,
+    "tensor_count": 219,
+    "dense_gated_blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "architecture_adapter_available": true,
+    "mutation_scope": "down projection only; gate/up/norm read-only",
+    "quant_types": [
+      "F16",
+      "F32"
+    ]
+  },
+  "source_sha256": "68c40b08b1242754a107b9510af89aa75b10c75843ca7844643c70956b7f1e3d",
+  "config": {
+    "rank": 64,
+    "strength": 0.05,
+    "max_change": 0.02,
+    "quadrature": 32,
+    "power_iters": 2,
+    "oversampling": 8,
+    "seed": 20260905
+  },
+  "layers": [
+    16
+  ],
+  "operator": "gpep",
+  "training": false,
+  "external_data": false,
+  "teacher": false,
+  "parameters_added": 0,
+  "capability_status": "UNTESTED",
+  "release_status": "CANDIDATE_UNVERIFIED",
+  "numpy": "1.26.4",
+  "python": "3.12.6",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "threads": 4,
+  "patches": [
+    {
+      "operator": "gpep",
+      "configuration": {
+        "rank": 64,
+        "strength": 0.05,
+        "max_change": 0.02,
+        "quadrature": 32,
+        "power_iters": 2,
+        "oversampling": 8,
+        "seed": 20260905
+      },
+      "research_status": "UNVALIDATED_CAPABILITY_HYPOTHESIS",
+      "eta": 0.020960997069372853,
+      "ideal_relative_change": 0.02000000072640925,
+      "effective_rank": 64,
+      "proxy_moment_min": 0.024644002544518154,
+      "proxy_moment_max": 1.4728965762425408,
+      "assumption": "isotropic_Gaussian_before_learned_norm; diagonal_channel_moment_proxy",
+      "orthogonality_error": 7.533730581404662e-07,
+      "projected_component_relative_change": 5.4771610076332e-09,
+      "unselected_component_multiplier": 0.9790390029306272,
+      "name": "blk.16.ffn_down.weight",
+      "shape": [
+        1536,
+        4608
+      ],
+      "type": "F16",
+      "original_tensor_sha256": "cd1e1754440478215476615e00dcd3eb024f21bb949dd8893c8c38d6fe8183a3",
+      "candidate_tensor_sha256": "f7ad548d62711f93af01b3479785b2a3a882ee58e49960a04657657217bf9143",
+      "realized_relative_change": 0.020000844920166464,
+      "roundtrip_relative_change": 0.0,
+      "effect_relative_to_control": 0.020000844920166464,
+      "encoding_direction_cosine": 0.9999481439166938,
+      "changed_weight_fraction": 0.996938634801794,
+      "candidate_differs_from_control": true
+    }
+  ],
+  "quantizer": null,
+  "quantizer_sha256": null,
+  "candidate.gguf": {
+    "path": "C:\\Users\\YOUR_USER\\Documents\\FocusOYL-MathMorph-20260905-A\\runs\\minicpm5-gpep-001\\candidate.gguf",
+    "sha256": "d777d8dae347cb1ebe3495f43b7efc259fa04c87210a6971237f310a2e9096ba",
+    "unaltered_bytes_verified": 2152396160,
+    "file_size_unchanged": true,
+    "metadata_byte_identical": true,
+    "tensor_layout_unchanged": true
+  },
+  "roundtrip-control.gguf": {
+    "path": "C:\\Users\\YOUR_USER\\Documents\\FocusOYL-MathMorph-20260905-A\\runs\\minicpm5-gpep-001\\roundtrip-control.gguf",
+    "sha256": "68c40b08b1242754a107b9510af89aa75b10c75843ca7844643c70956b7f1e3d",
+    "unaltered_bytes_verified": 2152396160,
+    "file_size_unchanged": true,
+    "metadata_byte_identical": true,
+    "tensor_layout_unchanged": true
+  },
+  "source_unchanged": true,
+  "elapsed_seconds": 21.985000000044238,
+  "structural_status": "PASS"
+}

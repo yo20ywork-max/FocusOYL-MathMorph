@@ -1,0 +1,10 @@
+{
+  "publication_utc": "2026-09-06T18:27:29.630565+00:00",
+  "files": 111,
+  "code_files": 56,
+  "new_synthetic_tests_passed": 9,
+  "score_recalculation_passed": true,
+  "credential_pattern_scan_passed": true,
+  "new_model_inference": false,
+  "model_weights_changed": false
+}

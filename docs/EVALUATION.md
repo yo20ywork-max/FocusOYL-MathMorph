@@ -34,7 +34,7 @@ The earlier uncapped run had a 900-second observation guard and sliding context.
 
 `benchmarks/localbench/` archives the local runner using EleutherAI `lm-evaluation-harness` 0.4.13, GSM8K `gsm8k_cot_zeroshot` task version 3.0, and IFEval task version 4.0. The generator uses a local llama.cpp API. Chat generation is not a substitute for token log-likelihood scoring tasks. Task-definition versions, sampling settings, total generation limits, chat templates, and final-answer extraction must accompany any published result.
 
-The available saved combined run is marked **INCOMPLETE**. It contains paired GSM8K results and an unpaired Prism IFEval result. GSM8K flexible extraction is 72.7066% original versus 70.4321% Prism; the raw task files retain strict extraction too. These are not a leaderboard submission, a third-party certificate, or a claim that all IFEval work finished.
+The available saved combined run is marked **INCOMPLETE**. It contains paired GSM8K results and an unpaired original IFEval result. GSM8K flexible extraction is 70.4321% original versus 72.7066% Prism. The two aggregates were verified against 1,319 item-level scores per arm/filter; strict extraction is also retained. These are not a leaderboard submission, a third-party certificate, or a claim that all IFEval work finished.
 
 No full benchmark was restarted for this publication. The snapshots are existing observations, identified by source hashes and publication timestamps. Their runtime counts may include auxiliary mode probes. Read `evidence/localbench/latest_incomplete/STATUS.json` before interpreting the aggregate.
 

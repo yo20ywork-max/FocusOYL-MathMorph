@@ -6,7 +6,7 @@
 
 **MathMorph is the research framework. FocusOYL Prism-1B is one specific experimental checkpoint.** This repository documents the hypotheses, implementations, controls, negative results, and publication lineage behind that checkpoint. It does not claim a universal GGUF upgrade, a newly pretrained foundation model, or a proven breakthrough beyond an architecture's capability ceiling.
 
-> **Current status: experimental; retain the original model as the default.** On one internal 156-item comparison, Prism improved observed correct delivery from 110 to 121 while using fewer generated tokens. It failed the predeclared overall acceptance criteria. A later public-task evaluation snapshot also contains a GSM8K regression; the combined evaluation remains marked incomplete. Both are documented rather than selectively omitted.
+> **Current status: experimental; retain the original model as the default.** On one internal 156-item comparison, Prism improved observed correct delivery from 110 to 121 while using fewer generated tokens. It failed the predeclared overall acceptance criteria. A later public-task evaluation snapshot is archived separately; the combined evaluation remains marked incomplete and is not a completed leaderboard submission.
 
 ## 1. What is actually released?
 
@@ -120,7 +120,9 @@ In a separate 47-item development screen, the original scored 37. The six strong
 
 ### Subsequent public-task evaluation snapshot
 
-The existing local benchmark uses `lm-evaluation-harness` task definitions for GSM8K and IFEval. The saved paired GSM8K flexible-extraction metric is **72.7066% for the original versus 70.4321% for Prism**. The aggregate file is explicitly `INCOMPLETE`; there is no certified paired final IFEval comparison. These results must not be merged with the earlier custom benchmark, and there is no public leaderboard rank or third-party verification claim. See [the evaluation notes](docs/EVALUATION.md) and `evidence/localbench/latest_incomplete/`.
+An existing local run uses `lm-evaluation-harness` task definitions for GSM8K and IFEval. Its saved paired GSM8K flexible-extraction score is **70.4321% for the original versus 72.7066% for Prism**, across 1,319 items per arm. Both aggregates were re-summed from their per-item metric records during publication. The saved strict-extraction metrics are retained too, not silently replaced.
+
+The combined comparison is explicitly **INCOMPLETE**. An original IFEval result exists; a completed paired Prism IFEval result is not certified in this snapshot. These are distinct task/filter settings from the earlier internal screen, not a public rank, third-party verification, or a new evaluation performed for this repository. See [evaluation notes](docs/EVALUATION.md) and `evidence/localbench/latest_incomplete/`.
 
 ## 5. Research timeline
 
@@ -133,7 +135,7 @@ The existing local benchmark uses `lm-evaluation-harness` task definitions for G
 | Unlimited-generation diagnosis | Do very long traces continue making useful progress? | Many censored traces repeated statements without producing a final answer |
 | v0.3 bounded local edits | Can damage and runaway evaluation be reduced? | Scoped regression recovered baseline, not a capability gain |
 | v0.4 geometric / Euclidean comparison | Do richer feature and reader geometries select better edits? | Euclidean control gave the strongest internal observed total; no full acceptance pass |
-| Post-release task evaluation | Does the published candidate retain its advantage? | Saved GSM8K comparison regressed; combined evaluation incomplete |
+| Post-release task evaluation | Does the published candidate retain its advantage? | Paired GSM8K snapshot available; combined evaluation incomplete |
 
 Read [EXPERIMENT_LOG.md](docs/EXPERIMENT_LOG.md) for the complete documented sequence and the distinction between archival results, retrospective diagnosis, and unevaluated plans.
 
