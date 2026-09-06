@@ -1,0 +1,33 @@
+{
+  "verified_utc": "2026-09-06T18:31:36.719258+00:00",
+  "github_repo": "yo20ywork-max/FocusOYL-MathMorph",
+  "github_commit": "a83df226991940a81a57b3b67d271b94afbdfd7d",
+  "huggingface_repo": "yoxia/FocusOYL-Prism-1B",
+  "parent_commit": "e34c6a8d7142bf369a046636317b429478258b45",
+  "huggingface_commit": "89d9d513e3807f0a5a78182a93fe8744f0b717da",
+  "updated_files": [
+    "EVALUATION.md",
+    "EXPERIMENT_LOG.md",
+    "README.md",
+    "TECHNICAL_REPORT.md"
+  ],
+  "verified_document_sha256": {
+    "EVALUATION.md": "a3dca67a5bb4731164b0dfb5f69cedb07884ba40a36510081be3c91191573da6",
+    "EXPERIMENT_LOG.md": "a1ae6059eedc497c436f6fab398f77574c05331b1ae038dcd09169309950b6ea",
+    "README.md": "ece24446a629de8269dca1264551df2f7dfc060e8289e116c287782422c0b3ef",
+    "TECHNICAL_REPORT.md": "72fc99d8f4cfbf50a6e84824f19cb651d7f243d010ea89a73ee89f7fe3a46ba0"
+  },
+  "unchanged_files": [
+    ".gitattributes",
+    "FocusOYL-Prism-1B-F16-Experimental-01.gguf",
+    "LICENSE",
+    "MODIFICATIONS.md",
+    "evaluation-summary.json"
+  ],
+  "model_file_unchanged_by_blob_identity": true,
+  "weights_reuploaded": false,
+  "access_settings_unchanged": true,
+  "private": false,
+  "gated": false,
+  "new_inference_started": false
+}
