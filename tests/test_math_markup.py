@@ -19,6 +19,13 @@ class MathMarkupTests(unittest.TestCase):
                 text = path.read_text(encoding="utf-8")
                 self.assertIsNone(re.search(r"\\operatorname\b", text))
 
+    def test_current_docs_avoid_markdown_escaped_math_punctuation(self):
+        paths = [ROOT / "README.md", *sorted((ROOT / "docs").glob("*.md"))]
+        for path in paths:
+            with self.subTest(path=path.relative_to(ROOT).as_posix()):
+                text = path.read_text(encoding="utf-8")
+                self.assertIsNone(re.search(r"\\[,;!|]", text))
+
 
 if __name__ == "__main__":
     unittest.main()
