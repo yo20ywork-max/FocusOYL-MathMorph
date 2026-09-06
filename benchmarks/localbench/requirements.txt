@@ -1,0 +1,4 @@
+# Install in a separate Python 3.12 environment, not the converter environment.
+lm-eval[api,ifeval]==0.4.13
+requests>=2.32,<3
+psutil>=5.9,<8

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the repository commit and exact model SHA-256 when reproducing an experiment."
+title: "FocusOYL MathMorph: Training-Free GGUF Weight Editing and Experimental Evidence"
+type: software
+authors:
+  - name: "yo20ywork-max"
+repository-code: "https://github.com/yo20ywork-max/FocusOYL-MathMorph"
+url: "https://huggingface.co/yoxia/FocusOYL-Prism-1B"
+license: Apache-2.0
+abstract: "Research implementations, mathematical hypotheses, controls, negative results, and provenance for training-free spectral editing of a MiniCPM5-1B GGUF checkpoint. No universal capability improvement is claimed."

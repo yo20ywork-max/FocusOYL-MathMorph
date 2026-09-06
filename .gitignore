@@ -1,0 +1,26 @@
+# Never commit model weights, keys, local environments, or runtime dumps.
+*.gguf
+*.safetensors
+*.bin
+*.exe
+*.dll
+*.so
+*.dylib
+*.pem
+*.key
+*.pfx
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+*.log
+*.b64
+runs/
+local-output/
+*.zip
+.DS_Store
