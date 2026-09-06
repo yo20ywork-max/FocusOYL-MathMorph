@@ -122,7 +122,7 @@ $$
 Then, with zero-row/tangent branches handled separately,
 
 $$
-w_i'=\cos\theta_i\thinspace w_i+\sin\theta_i\thinspace \Vert w_i\Vert _2\frac{v_i}{\Vert v_i\Vert _2}.
+w_i'=\cos\theta_i  w_i+\sin\theta_i  \Vert w_i\Vert _2\frac{v_i}{\Vert v_i\Vert _2}.
 $$
 
 This yields $\Vert w_i'\Vert _2=\Vert w_i\Vert _2$ and relative displacement $2\sin(\theta_i/2)$. A per-row budget and a sum of relative tensor budgets constrain the edit but are not network Lipschitz bounds. Independent row rotations do not imply a rank-preservation theorem. In v0.3, the tested two-layer edit recovered a small regression baseline, not a capability advantage.

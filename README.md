@@ -47,7 +47,7 @@ $$
 $$
 
 $$
-\alpha=\min\left(1,\frac{0.98\thinspace \varepsilon\thinspace \lVert W\rVert_F}{\lVert D\rVert_F}\right),\qquad r=512,\quad\varepsilon=0.12.
+\alpha=\min\left(1,\frac{0.98  \varepsilon  \lVert W\rVert_F}{\lVert D\rVert_F}\right),\qquad r=512,\quad\varepsilon=0.12.
 $$
 
 The zero-residual case returns the original matrix. The pre-encoding bound follows directly:

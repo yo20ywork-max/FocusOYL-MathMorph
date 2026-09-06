@@ -55,7 +55,7 @@ For each selected down-projection matrix $W$, define the leading left singular s
 $$
 W'=P_rW+(1-\alpha)(I-P_r)W,
 \qquad
-\alpha=\min\left(1,\frac{0.98\thinspace \varepsilon\Vert W\Vert _F}{\Vert D\Vert _F}\right).
+\alpha=\min\left(1,\frac{0.98  \varepsilon\Vert W\Vert _F}{\Vert D\Vert _F}\right).
 $$
 
 The zero-residual limit is the original matrix; ineffective encoded edits are rejected by the core. This entry always sets `geometry=False` and does not apply the cubic feature metric, downstream reader weighting, or readout protection. The mathematical formula and numerical implementation are the existing Euclidean control, not an additional invention.
