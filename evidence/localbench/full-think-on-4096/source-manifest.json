@@ -1,0 +1,56 @@
+{
+  "captured_utc": "2026-09-06T19:47:48.362466+00:00",
+  "files": [
+    {
+      "path": "comparison.json",
+      "sha256": "3df5f3f454b1d4b39c684656b86915024078b55543701ff7d523d9af2df626b9",
+      "bytes": 2678
+    },
+    {
+      "path": "protocol.json",
+      "sha256": "71dcc5606e642bfa9f5eaa67b8a739f2e7e54f1c7b979c70ba7050c0c48dd257",
+      "bytes": 1928
+    },
+    {
+      "path": "original/gsm8k_cot_zeroshot/results.json",
+      "sha256": "cd4d4308a91dd1d2541aa44b9afeda2fcbb4aa2162328cbecf64d92c8838e4db",
+      "bytes": 6242202
+    },
+    {
+      "path": "original/gsm8k_cot_zeroshot/cost.json",
+      "sha256": "d7af263d1db8f58fcc60cbe32621029c1249ce585fcee962bb0e6304e1b64cc5",
+      "bytes": 134
+    },
+    {
+      "path": "original/ifeval/results.json",
+      "sha256": "8cfbf3db410d80994c43775b7189e1e281e5b3753e2384feed5dd3713fe8abc4",
+      "bytes": 1903747
+    },
+    {
+      "path": "original/ifeval/cost.json",
+      "sha256": "be4e2e99983e3f8fae90055c2674aea29ed8a50329e1da4ebb11fb882287228c",
+      "bytes": 129
+    },
+    {
+      "path": "prism/gsm8k_cot_zeroshot/results.json",
+      "sha256": "fa94df353c259173ef56e943b369be19ca6b44744d9bfdc833709d56338ce824",
+      "bytes": 6260130
+    },
+    {
+      "path": "prism/gsm8k_cot_zeroshot/cost.json",
+      "sha256": "42dac806b42fcd34e867493ed0326b8e699cc6b9b83283880f746edc19756e5a",
+      "bytes": 134
+    },
+    {
+      "path": "prism/ifeval/results.json",
+      "sha256": "d3496728da86bbe31ba62787178bb3fa8434df775d6d04aa77a6b472a2749fd5",
+      "bytes": 1847157
+    },
+    {
+      "path": "prism/ifeval/cost.json",
+      "sha256": "ab36806710b03e2c11a4bf6954c35ee00115b01b4dc14ffb95340d03d72feffa",
+      "bytes": 129
+    }
+  ],
+  "note": "Digests of original local source files. Source files are not rewritten; public exports omit private paths and raw text."
+}

@@ -1,0 +1,26 @@
+{
+  "verified_utc": "2026-09-06T19:47:48.942275+00:00",
+  "combined_complete_flag": true,
+  "four_completed_task_results": true,
+  "scored_generations_checked": 3720,
+  "all_source_hashes_stable_during_audit": true,
+  "model_files_rehashed": {
+    "original": "68c40b08b1242754a107b9510af89aa75b10c75843ca7844643c70956b7f1e3d",
+    "prism": "24f86e98d327afb5d17418486708b0dc653749d6eed67150c4f58f8c6591a41b"
+  },
+  "same_questions_prompts_targets_and_generation_settings": true,
+  "all_reported_scores_recomputed_from_saved_per_item_metrics": true,
+  "all_scored_responses_match_recorded_final_content": true,
+  "new_inference": false,
+  "scorers_rerun": false,
+  "raw_source_files_modified": false,
+  "full_prompt_response_or_reasoning_text_published": false,
+  "official_leaderboard_submission": false,
+  "third_party_verification": false,
+  "diagnostic_notes": [
+    "sample_len is a count, never an accuracy percentage.",
+    "GSM8K has two extraction-filter records per question but only one scored generation per question.",
+    "IFEval instruction metrics flatten instruction booleans rather than averaging per-prompt percentages.",
+    "Truncated outputs retain their final-content score; truncation is reported separately."
+  ]
+}

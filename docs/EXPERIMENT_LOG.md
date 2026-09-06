@@ -70,13 +70,30 @@ An initial tokenizer-array read failed before model scoring; the reader fallback
 
 The Euclidean control was named FocusOYL Prism-1B F16 Experimental-01. It was not relabeled as NPSR sharpen or as the full high-dimensional operator. Weights were hosted on Hugging Face; documentation was subsequently translated into English. Gating and model-card language are hosting settings, not evidence about model intelligence. The current canonical account is `yoxia`; historical evidence retains its originally recorded account identifiers.
 
-## Subsequent standard-task run: incomplete combined report
+## Subsequent standard-task run: initial incomplete snapshot (historical)
 
 The local benchmark setup uses the actual `lm-evaluation-harness` GSM8K and IFEval task definitions, with a documented local API adapter and common 4,096-token generation setting. During this publication task, an existing saved run was found. **No new model inference was started for publication.**
 
 Its aggregate report is `INCOMPLETE`. The saved paired GSM8K flexible-extraction score is 0.7043214556 for original and 0.7270659591 for Prism, a difference of +2.27445 percentage points. During publication, each was re-summed from 1,319 item-level metric records; filter-specific records are kept separately. Strict-extraction scores are 0.0022744503 and 0.0053070508. They remain visible rather than being silently replaced. An original IFEval result exists, but a completed paired Prism IFEval comparison is not certified in this snapshot.
 
 We publish sanitized result snapshots and per-item metric/hash data, not a fabricated completed comparison. Runtime request counts can include auxiliary probes and must not be treated as the number of benchmark questions. See `evidence/localbench/latest_incomplete/` and the evaluation report.
+
+## Completed standard-task comparison: 2026-09-07
+
+The same local run subsequently finished both arms of GSM8K and IFEval. Its final combined report has `complete=true`; it supersedes the intermediate status above without deleting that historical evidence. During this publication, 3,720 stored response records and all six aggregate metric pairs were checked. No new inference was launched.
+
+| Benchmark / metric | MiniCPM5-1B F16 | FocusOYL Prism-1B F16 | Change (pp) |
+|---|---:|---:|---:|
+| GSM8K: flexible numeric extraction | 70.43% (929/1,319) | 72.71% (959/1,319) | +2.27 |
+| GSM8K: strict-format extraction | 0.23% (3/1,319) | 0.53% (7/1,319) | +0.30 |
+| IFEval: prompt-level strict | 72.64% (393/541) | 68.58% (371/541) | -4.07 |
+| IFEval: instruction-level strict | 74.70% (623/834) | 71.34% (595/834) | -3.36 |
+| IFEval: prompt-level loose | 74.12% (401/541) | 71.35% (386/541) | -2.77 |
+| IFEval: instruction-level loose | 75.78% (632/834) | 73.50% (613/834) | -2.28 |
+
+Prism answers 30 more GSM8K questions correctly under flexible numeric extraction, but passes all strict IFEval instructions on 22 fewer prompts. All four IFEval metrics decline. This is a task trade-off, not an across-the-board capability upgrade.
+
+The public score table corrects the count-only `sample_len` display; the original logs and score files were not edited. See [completed benchmark report](BENCHMARK_RESULTS.md) for the exact protocol and diagnostics.
 
 ## Interpretation
 

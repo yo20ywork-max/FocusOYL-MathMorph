@@ -1,0 +1,65 @@
+{
+  "settings": {
+    "source_hashes": {
+      "original": "68c40b08b1242754a107b9510af89aa75b10c75843ca7844643c70956b7f1e3d",
+      "prism": "24f86e98d327afb5d17418486708b0dc653749d6eed67150c4f58f8c6591a41b"
+    },
+    "server_sha256": "20f59bc7ec53480e705b5f6611bf2d4c599317a3ada4339c95c198b0a1842163",
+    "engine_version": "version: 0.3.0-dev (build 10672, commit 511f9c137)\nbuilt with Clang 20.1.8 for Windows x86_64\n",
+    "max_tokens": 4096,
+    "context_per_request": 8192,
+    "workers": 2,
+    "gpu_layers": 99,
+    "thinking": true,
+    "temperature": 0,
+    "seed": 20260906,
+    "few_shot": 0,
+    "custom_stop_strings": [],
+    "context_shift": false,
+    "smoke_limit": 0,
+    "task_yaml_sha256": {
+      "gsm8k_cot_zeroshot": "c506c7f5c19da2817db443f7e6d943421dfc9237510a70991d2667cf8efce1e0",
+      "ifeval": "3d8a3eb32de03f6a23ac87b46951d972a4ec7cb137e753365c0271594e38f84b"
+    },
+    "code_sha256": {
+      "run_benchmark.py": "9ace7ec803c8d6cf3c89b68d90f256559bcbfe6d1b434d091312c67ca1e6ee10",
+      "benchlib.py": "9e24a49f71d6e05138acd4df9ffc38c8f4ef529ac7e54bfc467b64e310efd93b"
+    },
+    "versions": {
+      "lm_eval": "0.4.13",
+      "datasets": "5.0.1",
+      "evaluate": "0.4.6",
+      "nltk": "3.10.3",
+      "langdetect": "1.0.9"
+    }
+  },
+  "dataset_revisions": {
+    "gsm8k_cot_zeroshot": "740312add88f781978c0658806c59bc2815b9866",
+    "ifeval": "966cd89545d6b6acfd7638bc708b98261ca58e84"
+  },
+  "started_utc": "2026-09-06T05:47:26Z",
+  "methodology": "Official task prompts/scorers; localhost chat adapter; generation until EOS or common budget; final content only",
+  "observed_request_settings": {
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "top_k": 0,
+    "min_p": 0.0,
+    "repeat_penalty": 1.0,
+    "seed": 20260906,
+    "max_tokens": 4096,
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    },
+    "cache_prompt": false,
+    "chat_template_kwargs": {
+      "enable_thinking": true
+    }
+  },
+  "publication_notes": {
+    "private_paths_removed": true,
+    "scored_text": "final_content only; reasoning_content excluded",
+    "budget_scope": "4096 total generated tokens including reasoning and answer",
+    "task_split_note": "GSM8K main/test; IFEval uses its train-named public evaluation split"
+  }
+}

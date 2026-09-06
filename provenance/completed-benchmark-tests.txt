@@ -1,0 +1,35 @@
+test_counts_are_not_percentages (test_completed_benchmark.CompletedBenchmarkTests.test_counts_are_not_percentages) ... ok
+test_instruction_denominator_is_not_prompt_count (test_completed_benchmark.CompletedBenchmarkTests.test_instruction_denominator_is_not_prompt_count) ... ok
+test_missing_item_is_rejected (test_completed_benchmark.CompletedBenchmarkTests.test_missing_item_is_rejected) ... ok
+test_published_aggregates (test_completed_benchmark.CompletedBenchmarkTests.test_published_aggregates) ... ok
+test_wrong_score_is_rejected (test_completed_benchmark.CompletedBenchmarkTests.test_wrong_score_is_rejected) ... ok
+test_bias_vector_and_quantized_target_rejected (test_euclidean_cli.EuclideanCLITests.test_bias_vector_and_quantized_target_rejected) ... ok
+test_budget_rejects_invalid_values (test_euclidean_cli.EuclideanCLITests.test_budget_rejects_invalid_values) ... ok
+test_dry_run_creates_no_outputs (test_euclidean_cli.EuclideanCLITests.test_dry_run_creates_no_outputs) ... ok
+test_existing_output_is_never_overwritten (test_euclidean_cli.EuclideanCLITests.test_existing_output_is_never_overwritten) ... ok
+test_expected_hash_accepts_uppercase (test_euclidean_cli.EuclideanCLITests.test_expected_hash_accepts_uppercase) ... ok
+test_expected_hash_mismatch (test_euclidean_cli.EuclideanCLITests.test_expected_hash_mismatch) ... ok
+test_floating_point_encodings_and_byte_audit (test_euclidean_cli.EuclideanCLITests.test_floating_point_encodings_and_byte_audit) ... ok
+test_invalid_rank_is_not_silently_clamped (test_euclidean_cli.EuclideanCLITests.test_invalid_rank_is_not_silently_clamped) ... ok
+test_layer_resolution (test_euclidean_cli.EuclideanCLITests.test_layer_resolution) ... ok
+test_missing_source_and_archive (test_euclidean_cli.EuclideanCLITests.test_missing_source_and_archive) ... ok
+test_multiple_explicit_layers (test_euclidean_cli.EuclideanCLITests.test_multiple_explicit_layers) ... ok
+test_nonfinite_and_noop_numerical_edits_rejected (test_euclidean_cli.EuclideanCLITests.test_nonfinite_and_noop_numerical_edits_rejected) ... ok
+test_pointer_file_is_not_a_gguf (test_euclidean_cli.EuclideanCLITests.test_pointer_file_is_not_a_gguf) ... ok
+test_required_arguments (test_euclidean_cli.EuclideanCLITests.test_required_arguments) ... ok
+test_supported_architecture_metadata (test_euclidean_cli.EuclideanCLITests.test_supported_architecture_metadata) ... ok
+test_unsupported_architecture_moe_and_shards (test_euclidean_cli.EuclideanCLITests.test_unsupported_architecture_moe_and_shards) ... ok
+test_contrast_protection (test_publication.PublicationTests.test_contrast_protection) ... ok
+test_energy_relation (test_publication.PublicationTests.test_energy_relation) ... ok
+test_euclidean_direction (test_publication.PublicationTests.test_euclidean_direction) ... ok
+test_evidence_identity (test_publication.PublicationTests.test_evidence_identity) ... ok
+test_orthogonal_split (test_publication.PublicationTests.test_orthogonal_split) ... ok
+test_projector (test_publication.PublicationTests.test_projector) ... ok
+test_recipe_identity (test_publication.PublicationTests.test_recipe_identity) ... ok
+test_weight_budget (test_publication.PublicationTests.test_weight_budget) ... ok
+test_zero_residual (test_publication.PublicationTests.test_zero_residual) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.367s
+
+OK

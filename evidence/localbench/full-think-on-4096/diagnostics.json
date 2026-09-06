@@ -1,0 +1,34 @@
+{
+  "original": {
+    "gsm8k_cot_zeroshot": {
+      "empty_final_answers": 252,
+      "capped_with_nonempty_final": 6,
+      "strict_extraction_invalid": 1316,
+      "distinct_questions": 1319,
+      "filter_specific_records": 2638
+    },
+    "ifeval": {
+      "empty_final_answers": 71,
+      "capped_with_nonempty_final": 13,
+      "strict_extraction_invalid": 0,
+      "distinct_questions": 541,
+      "filter_specific_records": 541
+    }
+  },
+  "prism": {
+    "gsm8k_cot_zeroshot": {
+      "empty_final_answers": 202,
+      "capped_with_nonempty_final": 10,
+      "strict_extraction_invalid": 1311,
+      "distinct_questions": 1319,
+      "filter_specific_records": 2638
+    },
+    "ifeval": {
+      "empty_final_answers": 78,
+      "capped_with_nonempty_final": 9,
+      "strict_extraction_invalid": 0,
+      "distinct_questions": 541,
+      "filter_specific_records": 541
+    }
+  }
+}

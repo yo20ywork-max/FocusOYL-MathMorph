@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.0",
+  "run_id": "full-think-on-4096",
+  "complete": true,
+  "status": "COMPLETED_LOCAL_EVALUATION",
+  "scope": "FULL DATASET SPLITS, zero-shot, think on, bounded generation",
+  "sample_counts_per_model": {
+    "gsm8k_cot_zeroshot": 1319,
+    "ifeval": 541
+  },
+  "total_scored_generations": 3720,
+  "metrics": [
+    {
+      "task": "gsm8k_cot_zeroshot",
+      "metric": "exact_match,strict-match",
+      "original": {
+        "correct": 3,
+        "denominator": 1319,
+        "score": 0.002274450341167551
+      },
+      "prism": {
+        "correct": 7,
+        "denominator": 1319,
+        "score": 0.00530705079605762
+      },
+      "delta_percentage_points": 0.30326004548900687
+    },
+    {
+      "task": "gsm8k_cot_zeroshot",
+      "metric": "exact_match,flexible-extract",
+      "original": {
+        "correct": 929,
+        "denominator": 1319,
+        "score": 0.7043214556482184
+      },
+      "prism": {
+        "correct": 959,
+        "denominator": 1319,
+        "score": 0.7270659590598939
+      },
+      "delta_percentage_points": 2.2744503411675554
+    },
+    {
+      "task": "ifeval",
+      "metric": "prompt_level_strict_acc,none",
+      "original": {
+        "correct": 393,
+        "denominator": 541,
+        "score": 0.7264325323475046
+      },
+      "prism": {
+        "correct": 371,
+        "denominator": 541,
+        "score": 0.6857670979667283
+      },
+      "delta_percentage_points": -4.06654343807763
+    },
+    {
+      "task": "ifeval",
+      "metric": "inst_level_strict_acc,none",
+      "original": {
+        "correct": 623,
+        "denominator": 834,
+        "score": 0.7470023980815348
+      },
+      "prism": {
+        "correct": 595,
+        "denominator": 834,
+        "score": 0.7134292565947242
+      },
+      "delta_percentage_points": -3.3573141486810565
+    },
+    {
+      "task": "ifeval",
+      "metric": "prompt_level_loose_acc,none",
+      "original": {
+        "correct": 401,
+        "denominator": 541,
+        "score": 0.7412199630314233
+      },
+      "prism": {
+        "correct": 386,
+        "denominator": 541,
+        "score": 0.7134935304990758
+      },
+      "delta_percentage_points": -2.7726432532347522
+    },
+    {
+      "task": "ifeval",
+      "metric": "inst_level_loose_acc,none",
+      "original": {
+        "correct": 632,
+        "denominator": 834,
+        "score": 0.7577937649880095
+      },
+      "prism": {
+        "correct": 613,
+        "denominator": 834,
+        "score": 0.7350119904076738
+      },
+      "delta_percentage_points": -2.27817745803357
+    }
+  ],
+  "cost": {
+    "original": {
+      "gsm8k_cot_zeroshot": {
+        "requests": 1319,
+        "completion_tokens": 2379397,
+        "length_stops": 258,
+        "natural_stops": 1061,
+        "think_nonempty": 1319
+      },
+      "ifeval": {
+        "requests": 541,
+        "completion_tokens": 917527,
+        "length_stops": 84,
+        "natural_stops": 457,
+        "think_nonempty": 541
+      }
+    },
+    "prism": {
+      "gsm8k_cot_zeroshot": {
+        "requests": 1319,
+        "completion_tokens": 2178602,
+        "length_stops": 212,
+        "natural_stops": 1107,
+        "think_nonempty": 1319
+      },
+      "ifeval": {
+        "requests": 541,
+        "completion_tokens": 934800,
+        "length_stops": 87,
+        "natural_stops": 454,
+        "think_nonempty": 541
+      }
+    }
+  },
+  "model_sha256": {
+    "original": "68c40b08b1242754a107b9510af89aa75b10c75843ca7844643c70956b7f1e3d",
+    "prism": "24f86e98d327afb5d17418486708b0dc653749d6eed67150c4f58f8c6591a41b"
+  },
+  "official_leaderboard_submission": false,
+  "verified_by_third_party": false,
+  "interpretation": "Higher GSM8K flexible-extraction accuracy; lower accuracy on all four IFEval metrics. Not an across-the-board upgrade."
+}

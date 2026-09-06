@@ -2,11 +2,11 @@
 
 ### Training-free GGUF weight editing, from spectral geometry to reproducible experiments
 
-[Model weights](https://huggingface.co/yoxia/FocusOYL-Prism-1B) · [Mathematics](docs/MATHEMATICS.md) · [Experiment history](docs/EXPERIMENT_LOG.md) · [Evaluation protocol](docs/EVALUATION.md) · [Reproduction](docs/REPRODUCIBILITY.md) ? [Euclidean converter](docs/EUCLIDEAN_CONVERTER.md)
+[Model weights](https://huggingface.co/yoxia/FocusOYL-Prism-1B) · [Mathematics](docs/MATHEMATICS.md) · [Experiment history](docs/EXPERIMENT_LOG.md) · [Completed benchmarks](docs/BENCHMARK_RESULTS.md) · [Evaluation protocol](docs/EVALUATION.md) · [Reproduction](docs/REPRODUCIBILITY.md) ? [Euclidean converter](docs/EUCLIDEAN_CONVERTER.md)
 
 **MathMorph is the research framework. FocusOYL Prism-1B is one specific experimental checkpoint.** This repository documents the hypotheses, implementations, controls, negative results, and publication lineage behind that checkpoint. It does not claim a universal GGUF upgrade, a newly pretrained foundation model, or a proven breakthrough beyond an architecture's capability ceiling.
 
-> **Current status: experimental; retain the original model as the default.** On one internal 156-item comparison, Prism improved observed correct delivery from 110 to 121 while using fewer generated tokens. It failed the predeclared overall acceptance criteria. A later public-task evaluation snapshot is archived separately; the combined evaluation remains marked incomplete and is not a completed leaderboard submission.
+> **Current status: completed local GSM8K + IFEval evaluation; checkpoint remains Experimental.** Prism improves GSM8K flexible-extraction accuracy from 70.43% to 72.71%, while IFEval prompt-level strict accuracy decreases from 72.64% to 68.58%. All six metric pairs are disclosed below. This is not a universal upgrade or independently verified leaderboard result. The earlier internal study still failed its original acceptance criteria.
 
 ## 1. What is actually released?
 
@@ -119,11 +119,24 @@ Prism's observed gain was **7.05 percentage points** with **9.48% fewer tokens**
 
 In a separate 47-item development screen, the original scored 37. The six stronger/readout-protected variants scored 33, 30, 36, 36, 24, and 24. No candidate qualified for advancement; the prepared 320-item holdout was **not evaluated**. The full v0.4 program performed 1,049 scored requests, not 1,049 independent tasks.
 
-### Subsequent public-task evaluation snapshot
+### Completed public-benchmark comparison
 
-An existing local run uses `lm-evaluation-harness` task definitions for GSM8K and IFEval. Its saved paired GSM8K flexible-extraction score is **70.4321% for the original versus 72.7066% for Prism**, across 1,319 items per arm. Both aggregates were re-summed from their per-item metric records during publication. The saved strict-extraction metrics are retained too, not silently replaced.
+Completed local, full-split evaluation using public benchmark task definitions. Both models use Think mode, zero-shot prompts, greedy decoding, and a common 4,096-token total generation cap. This is a self-reported experiment, not an independently verified leaderboard submission.
 
-The combined comparison is explicitly **INCOMPLETE**. An original IFEval result exists; a completed paired Prism IFEval result is not certified in this snapshot. These are distinct task/filter settings from the earlier internal screen, not a public rank, third-party verification, or a new evaluation performed for this repository. See [evaluation notes](docs/EVALUATION.md) and `evidence/localbench/latest_incomplete/`.
+| Benchmark / metric | MiniCPM5-1B F16 | FocusOYL Prism-1B F16 | Change (pp) |
+|---|---:|---:|---:|
+| GSM8K: flexible numeric extraction | 70.43% (929/1,319) | 72.71% (959/1,319) | +2.27 |
+| GSM8K: strict-format extraction | 0.23% (3/1,319) | 0.53% (7/1,319) | +0.30 |
+| IFEval: prompt-level strict | 72.64% (393/541) | 68.58% (371/541) | -4.07 |
+| IFEval: instruction-level strict | 74.70% (623/834) | 71.34% (595/834) | -3.36 |
+| IFEval: prompt-level loose | 74.12% (401/541) | 71.35% (386/541) | -2.77 |
+| IFEval: instruction-level loose | 75.78% (632/834) | 73.50% (613/834) | -2.28 |
+
+Prism answers 30 more GSM8K questions correctly under flexible numeric extraction, but passes all strict IFEval instructions on 22 fewer prompts. All four IFEval metrics decline. This is a task trade-off, not an across-the-board capability upgrade.
+
+Each model was evaluated on **1,319 GSM8K questions and 541 IFEval prompts**. IFEval contains **834 individual instruction checks**; those are not 834 separate prompts. Changes are calculated from unrounded scores.
+
+The GSM8K strict-format filter is a formatting-sensitive diagnostic, not an independent mathematics test. See [full results, token usage, and extraction notes](docs/BENCHMARK_RESULTS.md). The earlier incomplete snapshot remains archived; the completed comparison is in `evidence/localbench/full-think-on-4096/`.
 
 ## 5. Research timeline
 
@@ -136,7 +149,7 @@ The combined comparison is explicitly **INCOMPLETE**. An original IFEval result 
 | Unlimited-generation diagnosis | Do very long traces continue making useful progress? | Many censored traces repeated statements without producing a final answer |
 | v0.3 bounded local edits | Can damage and runaway evaluation be reduced? | Scoped regression recovered baseline, not a capability gain |
 | v0.4 geometric / Euclidean comparison | Do richer feature and reader geometries select better edits? | Euclidean control gave the strongest internal observed total; no full acceptance pass |
-| Post-release task evaluation | Does the published candidate retain its advantage? | Paired GSM8K snapshot available; combined evaluation incomplete |
+| Post-release task evaluation | Does the published candidate retain its advantage? | Completed paired GSM8K and IFEval full splits; GSM8K gains and instruction-following regressions |
 
 Read [EXPERIMENT_LOG.md](docs/EXPERIMENT_LOG.md) for the complete documented sequence and the distinction between archival results, retrospective diagnosis, and unevaluated plans.
 

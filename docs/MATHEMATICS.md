@@ -217,3 +217,7 @@ Weight geometry is a way to propose candidates. Only matched, held-out behaviora
 ## References and relation to prior work
 
 The project uses established tools: SVD and low-rank approximation, orthogonal projections, Gaussian/Hermite moments, and positive-definite metrics. The integration is a research hypothesis, not a priority claim. Related training-free spectral editing: [LASER](https://arxiv.org/abs/2312.13558). Implementation format: [GGUF specification](https://github.com/ggml-org/ggml/blob/master/docs/gguf.md). Base model: [MiniCPM5-1B](https://huggingface.co/openbmb/MiniCPM5-1B).
+
+## Completed empirical follow-up
+
+The released Euclidean operator has now been evaluated on full paired GSM8K and IFEval splits under the same Think-on protocol. GSM8K flexible-extraction accuracy increased from 70.43% to 72.71%; IFEval prompt-level strict accuracy decreased from 72.64% to 68.58%, and all other IFEval metrics also declined. This is consistent with the report's separation of matrix-space properties from task guarantees. See [completed benchmark report](BENCHMARK_RESULTS.md) for all metrics, conditions, and limitations. No formula or model weight was changed for this publication.

@@ -32,11 +32,45 @@ The earlier uncapped run had a 900-second observation guard and sliding context.
 
 ## Public-task evaluation is a distinct protocol
 
-`benchmarks/localbench/` archives the local runner using EleutherAI `lm-evaluation-harness` 0.4.13, GSM8K `gsm8k_cot_zeroshot` task version 3.0, and IFEval task version 4.0. The generator uses a local llama.cpp API. Chat generation is not a substitute for token log-likelihood scoring tasks. Task-definition versions, sampling settings, total generation limits, chat templates, and final-answer extraction must accompany any published result.
+The combined `full-think-on-4096` run is now **COMPLETE**: both models completed 1,319 GSM8K and 541 IFEval prompts, totaling 3,720 scored generations. The earlier `latest_incomplete/` snapshot remains a historical intermediate record.
 
-The available saved combined run is marked **INCOMPLETE**. It contains paired GSM8K results and an unpaired original IFEval result. GSM8K flexible extraction is 70.4321% original versus 72.7066% Prism. The two aggregates were verified against 1,319 item-level scores per arm/filter; strict extraction is also retained. These are not a leaderboard submission, a third-party certificate, or a claim that all IFEval work finished.
+### Completed public-benchmark comparison
 
-No full benchmark was restarted for this publication. The snapshots are existing observations, identified by source hashes and publication timestamps. Their runtime counts may include auxiliary mode probes. Read `evidence/localbench/latest_incomplete/STATUS.json` before interpreting the aggregate.
+Completed local, full-split evaluation using public benchmark task definitions. Both models use Think mode, zero-shot prompts, greedy decoding, and a common 4,096-token total generation cap. This is a self-reported experiment, not an independently verified leaderboard submission.
+
+| Benchmark / metric | MiniCPM5-1B F16 | FocusOYL Prism-1B F16 | Change (pp) |
+|---|---:|---:|---:|
+| GSM8K: flexible numeric extraction | 70.43% (929/1,319) | 72.71% (959/1,319) | +2.27 |
+| GSM8K: strict-format extraction | 0.23% (3/1,319) | 0.53% (7/1,319) | +0.30 |
+| IFEval: prompt-level strict | 72.64% (393/541) | 68.58% (371/541) | -4.07 |
+| IFEval: instruction-level strict | 74.70% (623/834) | 71.34% (595/834) | -3.36 |
+| IFEval: prompt-level loose | 74.12% (401/541) | 71.35% (386/541) | -2.77 |
+| IFEval: instruction-level loose | 75.78% (632/834) | 73.50% (613/834) | -2.28 |
+
+Prism answers 30 more GSM8K questions correctly under flexible numeric extraction, but passes all strict IFEval instructions on 22 fewer prompts. All four IFEval metrics decline. This is a task trade-off, not an across-the-board capability upgrade.
+
+Each model was evaluated on **1,319 GSM8K questions and 541 IFEval prompts**. IFEval contains **834 individual instruction checks**; those are not 834 separate prompts. Changes are calculated from unrounded scores.
+
+The two GSM8K extraction filters score the same generated answers, not separate runs. The strict filter is highly format-sensitive; read the extraction diagnostics before interpreting its near-zero scores.
+
+Unlike the earlier internal study, this harness protocol scores the returned final-answer field even on length-stopped outputs. It never substitutes text from the reasoning field. All denominators and failed final answers are retained.
+
+| Setting | Both models |
+|---|---|
+| Reasoning | Think enabled; recorded reasoning fields checked |
+| Generation limit | 4,096 total generated tokens per question, including thinking and answer |
+| Context | 8,192 tokens per request; context shifting disabled |
+| Sampling | temperature 0; top_p 1; top_k 0; min_p 0; repeat_penalty 1 |
+| Seed / repetitions | 20260906; one scored generation per question |
+| Few-shot examples | 0 |
+| Concurrency / GPU offload setting | 2 requests; gpu_layers=99 |
+| Engine | llama.cpp build 10672, commit 511f9c137; Windows x86_64 |
+| Evaluation framework | lm-evaluation-harness 0.4.13 via a local chat API adapter |
+| Task definitions | gsm8k_cot_zeroshot version 3.0; ifeval version 4.0 |
+| Stop policy | EOS or common token cap; custom stop strings are empty |
+| Scored output | Final-answer content only; separate reasoning content never used as a substitute |
+
+The [completed report](BENCHMARK_RESULTS.md) records token usage, strict/flexible extraction, dataset and model identities, warnings, and evidence locations. The publication audit re-sums existing item metrics and checks stored responses; it does not rerun the scorers or model. No leaderboard submission or independent verification is claimed.
 
 ## Evidence publication
 
