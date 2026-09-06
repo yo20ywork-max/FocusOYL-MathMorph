@@ -75,7 +75,7 @@ The research progressed beyond isolated weight magnitudes into three interacting
 For a gated FFN,
 
 $$
-h_j(x)=\operatorname{SiLU}(g_j^\top x)(u_j^\top x),\qquad y=Wh(x),
+h_j(x)=\mathrm{SiLU}(g_j^\top x)(u_j^\top x),\qquad y=Wh(x),
 $$
 
 we constructed a cubic Hermite surrogate under an explicit Gaussian proxy, producing the uncentered feature Gram matrix
@@ -87,7 +87,7 @@ $$
 A positive-definite downstream reader metric $H$ gives $C=H^{1/2}$. With $P_r$ selected from the leading eigenspace of $CWKW^\top C$, the weighted approximation is
 
 $$
-W_r=C^{-1}P_rCW\in\underset{\operatorname{rank}(Z)\leq r}{\operatorname{argmin}}\;\lVert C(Z-W)K^{1/2}\rVert_F^2.
+W_r=C^{-1}P_rCW\in\underset{\mathrm{rank}(Z)\leq r}{\mathrm{arg\,min}}\;\lVert C(Z-W)K^{1/2}\rVert_F^2.
 $$
 
 A separate branch restricts the update to the orthogonal complement of a fixed readout-contrast subspace, whose orthonormal basis is $Q_A$:
